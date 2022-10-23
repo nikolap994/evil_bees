@@ -5,30 +5,20 @@ export default function Navigation() {
 	const { data: session } = useSession();
 
 	return (
-		<nav>
-			<button onClick={() => signIn()}>Sign in</button>
-			<ul>
-				<li>
-					<Link href="/">Home</Link>
-				</li>
-				<li>
-					<Link href="/projects">Projects</Link>
-				</li>
-				<li>
-					<Link href="/about">About us</Link>
-				</li>
-				<ul>
-					<li>
+		<header className="py-10">
+			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+				<nav className="relative z-50 flex justify-between">
+					<div className="flex items-center md:gap-x-12">
+						<Link href="/">Home</Link>
+						<Link href="/projects">Projects</Link>
+						<Link href="/about">About us</Link>
 						<Link href="/members">Members</Link>
-					</li>
-					<li>
 						<Link href="/members/hall-of-fame">Hall of Fame</Link>
-					</li>
-				</ul>
-				<li>
-					<Link href="/contact">Contact us</Link>
-				</li>
-			</ul>
-		</nav>
+						<Link href="/contact">Contact us</Link>
+					</div>
+					<button onClick={() => signIn()}>Sign in</button>
+				</nav>
+			</div>
+		</header>
 	);
 }
