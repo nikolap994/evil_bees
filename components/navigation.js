@@ -1,8 +1,12 @@
 import Link from "next/link";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 export default function Navigation() {
+	const { data: session } = useSession();
+
 	return (
 		<nav>
+			<button onClick={() => signIn()}>Sign in</button>
 			<ul>
 				<li>
 					<Link href="/">Home</Link>
