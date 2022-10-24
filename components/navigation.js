@@ -22,7 +22,7 @@ export default function Navigation() {
 						<Link href="/projects">Projects</Link>
 						<Link href="/contact">Contact us</Link>
 					</div>
-					<button onClick={() => signIn()}>Sign in</button>
+					<button onClick={() => signIn()}>Join us!</button>
 				</nav>
 			</div>
 		</header>
