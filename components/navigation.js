@@ -11,9 +11,7 @@ export default function Navigation() {
 					<div className="flex items-center md:gap-x-12">
 						<Link href="/">Home</Link>
 						<Link href="/projects">Projects</Link>
-						<Link href="/about">About us</Link>
 						<Link href="/members">Members</Link>
-						<Link href="/members/hall-of-fame">Hall of Fame</Link>
 						<Link href="/contact">Contact us</Link>
 					</div>
 					<button onClick={() => signIn()}>Sign in</button>
