@@ -4,13 +4,10 @@
 
 html {
 	@apply h-full;
-  }
-  body {
+}
+div#__next {
 	@apply h-full;
-  }
-  div#__next {
+}
+main {
 	@apply h-full;
-  }
-  main {
-	@apply h-full;
-  }
+}
