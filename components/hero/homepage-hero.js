@@ -9,6 +9,7 @@ export default function HomepageHero() {
 				<Image
 					src={growthImage}
 					alt="Man with purple hair flying on a rocket"
+					className="opacity-50 xl:opacity-100"
 				/>
 			</div>
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 text-center">
