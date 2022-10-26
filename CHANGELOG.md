@@ -8,3 +8,4 @@ All notable changes to this project will be documented in this file.
 - Bees Tiers component
 - Hard Truth component
 - Open Source FAQ component
+- Solving Problems component
