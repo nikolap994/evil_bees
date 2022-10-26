@@ -6,8 +6,8 @@ export default function Navigation() {
 	const { data: session } = useSession();
 
 	return (
-		<header className="py-10">
-			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<header className="pb-10">
+			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 bg-indigo-900 text-white">
 				<nav className="relative z-50 flex justify-between">
 					<div className="flex items-center md:gap-x-12">
 						<Link href="/">
