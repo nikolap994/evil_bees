@@ -4,4 +4,5 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 ### Added
 
-- Homepage Hero Component
+- Homepage Hero component
+- Bees Tiers component
