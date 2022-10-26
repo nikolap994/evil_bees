@@ -9,3 +9,4 @@ All notable changes to this project will be documented in this file.
 - Hard Truth component
 - Open Source FAQ component
 - Solving Problems component
+- What We Stand For component
