@@ -21,6 +21,7 @@ export default function Navigation() {
 						<Link href="/members">Members</Link>
 						<Link href="/projects">Projects</Link>
 						<Link href="/contact">Contact us</Link>
+						<Link href="/register">Register</Link>
 					</div>
 					<button onClick={() => signIn()}>Join us!</button>
 				</nav>
