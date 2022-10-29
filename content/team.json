@@ -1,10 +1,22 @@
 {
 	"0": {
-		"firstName": "Nikola",
-		"lastName": "Pavlovic"
+		"name": "Nikola Pavlović",
+		"linkedin": "https://www.linkedin.com/in/nikolap994/",
+		"twitter": "https://twitter.com/nikolap994",
+		"github": "https://github.com/nikolap994",
+		"about": "I'm a Software Developer based in Serbia who loves playing with new technologies. I'm constantly on the hunt for new frameworks and trying to improve myself. At the beginning of 2022, I've earned a Ph.D. in computer science. My Thesis was My Ph.D. thesis was Increasing privacy and security by integrating a Blockchain Secure Interface into IoT Device Security. Most of my contributions are open source. I wish to share my knowledge with others, help people get into this industry. I'm an advocate for privacy and security.",
+		"photo": "/team/nikolap994.png",
+		"role": "Founder",
+		"email": "nikola@evilbees.com"
 	},
 	"1": {
-		"firstName": "Marija",
-		"lastName": "Ćehić"
+		"name": "Marija Ćehić",
+		"linkedin": "https://www.linkedin.com/in/nikolap994/",
+		"twitter": "https://twitter.com/nikolap994",
+		"github": "https://github.com/nikolap994",
+		"about": "I'm a Software Developer based in Serbia who loves playing with new technologies. I'm constantly on the hunt for new frameworks and trying to improve myself. At the beginning of 2022, I've earned a Ph.D. in computer science. My Thesis was My Ph.D. thesis was Increasing privacy and security by integrating a Blockchain Secure Interface into IoT Device Security. Most of my contributions are open source. I wish to share my knowledge with others, help people get into this industry. I'm an advocate for privacy and security.",
+		"photo": "/team/cehicm.png",
+		"role": "Founder",
+		"email": "nikola@evilbees.com"
 	}
 }
