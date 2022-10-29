@@ -19,6 +19,7 @@ export default function Navigation() {
 						</Link>
 						<Link href="/projects">Projects</Link>
 						<Link href="/our-team">Our Team</Link>
+						<Link href="/code-of-conduct">Code of Conduct</Link>
 						<Link href="/contact">Contact us</Link>
 					</div>
 					<Link className="flex items-center md:gap-x-12" href="https://discord.gg/rvxGNrFhNz">Join Us!</Link>
