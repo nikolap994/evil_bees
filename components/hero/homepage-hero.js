@@ -7,6 +7,7 @@ export default function HomepageHero() {
 		<section className="relative">
 			<div className="hidden lg:block absolute right-0 bottom-0 z-[-1]">
 				<Image
+					priority={true}
 					src={growthImage}
 					alt="Man with purple hair flying on a rocket"
 					className="opacity-50 xl:opacity-100"
