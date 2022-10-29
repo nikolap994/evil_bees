@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function OurTeam() {
 	return (
-		<div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+		<div className="container m-auto px-6 md:px-12 xl:px-6">
 			<h1 className="z-10 max-w-4xl font-display text-5xl font-medium tracking-tight text-left text-slate-900 sm:text-7xl">
 				Team
 			</h1>
