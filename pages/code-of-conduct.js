@@ -1,32 +1,42 @@
+import Link from "next/link";
+
 export default function CodeOfConduct() {
 	return (
-		<div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-			<h1 id="code-of-conduct">CODE OF CONDUCT</h1>
-			<h2 id="introduction">INTRODUCTION</h2>
+		<div className="container m-auto px-6 md:px-12 xl:px-6 pb-14">
+			<h1 className="z-10 max-w-4xl font-display text-5xl font-medium tracking-tight text-left text-slate-900 sm:text-7xl">
+				CODE OF CONDUCT
+			</h1>
+			<br />
+			<h2 className="z-10 max-w-4xl font-display text-2xl font-medium tracking-tight text-left text-slate-900 sm:text-3xl">
+				INTRODUCTION
+			</h2>
+			<br />
 			<p>
-				This code of conduct applies to all spaces managed by the Apache
-				Software Foundation, including IRC, all public and private mailing
-				lists, issue trackers, wikis, blogs, Twitter, and any other
-				communication channel used by our communities. A code of conduct which
-				is specific to in-person events (ie., conferences) is codified in the
-				published ASF anti-harassment policy.
+				This code of conduct applies to all spaces managed by the Evill Bees,
+				all public and private mailing lists, issue trackers, wikis, blogs,
+				Twitter, and any other communication channel used by our communities. A
+				code of conduct which is specific to in-person events (ie., conferences)
+				is codified in the published ASF anti-harassment policy. We expect this
+				code of conduct to be honored by everyone who participates in the Evil
+				Bees community formally or informally, or claims any affiliation with
+				the community, in any community-related activities and especially when
+				representing the ASF, in any role. This code is{" "}
+				<strong>not exhaustive or complete</strong>. It serves to distill our
+				common understanding of a collaborative, shared environment and goals.
+				We expect it to be followed in spirit as much as in the letter, so that
+				it can enrich all of us and the technical communities in which we
+				participate.
 			</p>
-			<p>
-				We expect this code of conduct to be honored by everyone who
-				participates in the Apache community formally or informally, or claims
-				any affiliation with the Foundation, in any Foundation-related
-				activities and especially when representing the ASF, in any role.
+			<br />
+			<h2 className="z-10 max-w-4xl font-display text-2xl font-medium tracking-tight text-left text-slate-900 sm:text-3xl">
+				SPECIFIC GUIDELINES
+			</h2>
+			<br />
+			<p className="z-10 max-w-4xl font-display text-l font-medium tracking-tight text-left text-slate-900 sm:text-l">
+				We strive to:
 			</p>
-			<p>
-				This code is <strong>not exhaustive or complete</strong>. It serves to
-				distill our common understanding of a collaborative, shared environment
-				and goals. We expect it to be followed in spirit as much as in the
-				letter, so that it can enrich all of us and the technical communities in
-				which we participate.
-			</p>
-			<h2 id="specific-guidelines">SPECIFIC GUIDELINES</h2>
-			<p>We strive to:</p>
-			<ol>
+			<br />
+			<ol className="list-disc">
 				<li>
 					<p>
 						<strong>Be open.</strong> We invite anyone to participate in our
@@ -68,7 +78,7 @@ export default function CodeOfConduct() {
 						questions early avoids many problems later, so questions are
 						encouraged, though they may be directed to the appropriate forum.
 						Those who are asked should be responsive and helpful, within the
-						context of our shared goal of improving Apache project code.
+						context of our shared goal of improving Evil Bees projects code.
 					</p>
 				</li>
 				<li>
@@ -80,7 +90,7 @@ export default function CodeOfConduct() {
 						participants. Harassment and other exclusionary behavior are not
 						acceptable. This includes, but is not limited to:
 					</p>
-					<ul>
+					<ul className="list-inside list-disc">
 						<li>
 							Violent threats or language directed against another person.
 						</li>
@@ -115,19 +125,11 @@ export default function CodeOfConduct() {
 						people can understand the conversation as efficiently as possible.
 						Short emails should always strive to be empathetic, welcoming,
 						friendly and patient. When a long explanation is necessary, consider
-						adding a summary.
-					</p>
-					<p>
-						{" "}
-						Try to bring new ideas to a conversation so that each mail adds
-						something unique to the thread, keeping in mind that the rest of the
-						thread still contains the other messages with arguments that have
-						already been made.
-					</p>
-					<p>
-						{" "}
-						Try to stay on topic, especially in discussions that are already
-						fairly large.
+						adding a summary. Try to bring new ideas to a conversation so that
+						each mail adds something unique to the thread, keeping in mind that
+						the rest of the thread still contains the other messages with
+						arguments that have already been made. Try to stay on topic,
+						especially in discussions that are already fairly large.
 					</p>
 				</li>
 				<li>
@@ -143,31 +145,32 @@ export default function CodeOfConduct() {
 					</p>
 				</li>
 			</ol>
-			<h2 id="diversity-statement">DIVERSITY STATEMENT</h2>
+			<br />
+			<h2 className="z-10 max-w-4xl font-display text-l font-medium tracking-tight text-left text-slate-900 sm:text-l">
+				DIVERSITY STATEMENT
+			</h2>
+			<br />
 			<p>
-				Apache welcomes and encourages participation by everyone. We are
+				Evil Bees welcomes and encourages participation by everyone. We are
 				committed to being a community that everyone feels good about joining.
 				Although we may not be able to satisfy everyone, we will always work to
-				treat everyone well.
+				treat everyone well. No matter how you identify yourself or how others
+				perceive you: we welcome you. Though no list can hope to be
+				comprehensive, we explicitly honour diversity in: age, culture,
+				ethnicity, genotype, gender identity or expression, language, national
+				origin, neurotype, phenotype, political beliefs, profession, race,
+				religion, sexual orientation, socioeconomic status, subculture and
+				technical ability.Though we welcome people fluent in all languages, Evil
+				Bees development is conducted in English. Standards for behaviour in the
+				Evil Bees community are detailed in the Code of Conduct above. We expect
+				participants in our community to meet these standards in all their
+				interactions and to help others to do so as well.
 			</p>
-			<p>
-				No matter how you identify yourself or how others perceive you: we
-				welcome you. Though no list can hope to be comprehensive, we explicitly
-				honour diversity in: age, culture, ethnicity, genotype, gender identity
-				or expression, language, national origin, neurotype, phenotype,
-				political beliefs, profession, race, religion, sexual orientation,
-				socioeconomic status, subculture and technical ability.
-			</p>
-			<p>
-				Though we welcome people fluent in all languages, Apache development is
-				conducted in English.
-			</p>
-			<p>
-				Standards for behaviour in the Apache community are detailed in the Code
-				of Conduct above. We expect participants in our community to meet these
-				standards in all their interactions and to help others to do so as well.
-			</p>
-			<h2 id="reporting-guidelines">REPORTING GUIDELINES</h2>
+			<br />
+			<h2 className="z-10 max-w-4xl font-display text-l font-medium tracking-tight text-left text-slate-900 sm:text-l">
+				REPORTING GUIDELINES
+			</h2>
+			<br />
 			<p>
 				While this code of conduct should be adhered to by participants, we
 				recognize that sometimes people may have a bad day, or be unaware of
@@ -187,127 +190,59 @@ export default function CodeOfConduct() {
 				discussion. Should there be difficulties in dealing with the situation,
 				you may report your compliance issues in confidence to either:
 			</p>
+			<br />
 			<ul>
 				<li>
-					President of the Apache Software Foundation: Sam Ruby (rubys at
-					intertwingly dot net)
+					<Link href="https://github.com/nikolap994">Nikola Pavlović</Link>
+				</li>
+				<li>
+					<Link href="https://github.com/cehicm">Marija Ćehić</Link>
 				</li>
 			</ul>
-			<p>Or one of our volunteers:</p>
-			<ul>
-				<li>
-					<a href="http://home.apache.org/~markt/coc.html">Mark Thomas</a>
-				</li>
-				<li>
-					<a href="http://home.apache.org/~wohali/">Joan Touzet</a>
-				</li>
-				<li>
-					<a href="http://home.apache.org/~sharan/coc.html">Sharan Foga</a>
-				</li>
-			</ul>
-			<p>
-				If the violation is in documentation or code, for example inappropriate
-				pronoun usage or word choice within official documentation, we ask that
-				people report these privately to the project in question at{" "}
-				<a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#112;&#114;&#x69;&#x76;&#97;&#116;&#101;&#64;&#112;&#114;&#111;&#x6a;&#x65;&#x63;&#116;&#46;&#x61;&#112;&#97;&#99;&#x68;&#x65;&#x2e;&#111;&#114;&#103;">
-					&#112;&#114;&#x69;&#x76;&#97;&#116;&#101;&#64;&#112;&#114;&#111;&#x6a;&#x65;&#x63;&#116;&#46;&#x61;&#112;&#97;&#99;&#x68;&#x65;&#x2e;&#111;&#114;&#103;
-				</a>
-				, and, if they have sufficient ability within the project, to resolve or
-				remove the concerning material, being mindful of the perspective of the
-				person originally reporting the issue.
-			</p>
-			<h2 id="endnotes">ENDNOTES</h2>
+			<br />
+
+			<h2 className="z-10 max-w-4xl font-display text-l font-medium tracking-tight text-left text-slate-900 sm:text-l">
+				ENDNOTES
+			</h2>
+			<br />
 			<p>
 				This Code defines <strong>empathy</strong> as &quot;a vicarious
 				participation in the emotions, ideas, or opinions of others; the ability
 				to imagine oneself in the condition or predicament of another.&quot;{" "}
 				<strong>Empathetic</strong> is the adjectival form of empathy.
 			</p>
-			<p>
-				This statement thanks the following, on which it draws for content and
-				inspiration:
-			</p>
-			<ul>
-				<li>
-					<a href="http://couchdb.apache.org/conduct.html">
-						CouchDB Project Code of conduct
-					</a>
-				</li>
-				<li>
-					<a href="http://fedoraproject.org/code-of-conduct">
-						Fedora Project Code of Conduct
-					</a>
-				</li>
-				<li>
-					<a href="http://speakup.io/coc.html">Speak Up! Code of Conduct</a>
-				</li>
-				<li>
-					<a href="https://www.djangoproject.com/conduct/">
-						Django Code of Conduct
-					</a>
-				</li>
-				<li>
-					<a href="http://www.debian.org/vote/2014/vote_002">
-						Debian Code of Conduct
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/twitter/code-of-conduct/blob/master/code-of-conduct.md">
-						Twitter Open Source Code of Conduct
-					</a>
-				</li>
-				<li>
-					<a href="https://wiki.mozilla.org/Code_of_Conduct/Draft#Conflicts_of_Interest">
-						Mozilla Code of Conduct/Draft
-					</a>
-				</li>
-				<li>
-					<a href="https://www.python.org/community/diversity/">
-						Python Diversity Appendix
-					</a>
-				</li>
-				<li>
-					<a href="http://pythonmentors.com">Python Mentors Home Page</a>
-				</li>
-			</ul>
-			<h1 id="slack-community-guidelines">Slack Community Guidelines</h1>
+			<br />
+			<h1 className="z-10 max-w-4xl font-display text-l font-medium tracking-tight text-left text-slate-900 sm:text-l">
+				Discord Community Guidelines
+			</h1>
+			<br />
 			<p>
 				If you decide to join the{" "}
-				<a href="https://join.slack.com/t/apache-superset/shared_invite/zt-16jvzmoi8-sI7jKWp~xc2zYRe~NqiY9Q">
-					Community Slack
-				</a>
-				, please adhere to the following rules:
+				<a href="https://discord.gg/rvxGNrFhNz">Community Discord</a>, please
+				adhere to the following rules:
 			</p>
+			<br />
 			<p>
 				<strong>1. Treat everyone in the community with respect.</strong>
 			</p>
-			<ul>
-				<li>
-					We strive to make this community a warm place for people from all
-					industries, use cases, geographies, and backgrounds. Harassment of any
-					kind is not acceptable and won’t be tolerated.
-				</li>
-				<li>
-					Please follow the guidelines as outlined in the Superset Community{" "}
-					<a href="https://github.com/apache/superset/blob/master/CODE_OF_CONDUCT.md">
-						code of conduct here
-					</a>
-					.
-				</li>
-			</ul>
+			<p>
+				We strive to make this community a warm place for people from all
+				industries, use cases, geographies, and backgrounds. Harassment of any
+				kind is not acceptable and won’t be tolerated.
+			</p>
+			<br />
 			<p>
 				<strong>2. Use the right channel.</strong>
 			</p>
-			<ul>
-				<li>
-					Channels are an effective way to organize and focus discussions while
-					also empowering members to opt-in to the types of content they’re
-					interested in. When questions are posted or discussions are started in
-					the wrong channel, it dilutes the trust of the members in the channel
-					and, more practically, makes it harder for your questions to be
-					answered.
-				</li>
-			</ul>
+			<p>
+				Channels are an effective way to organize and focus discussions while
+				also empowering members to opt-in to the types of content they’re
+				interested in. When questions are posted or discussions are started in
+				the wrong channel, it dilutes the trust of the members in the channel
+				and, more practically, makes it harder for your questions to be
+				answered.
+			</p>
+			<br />
 			<p>
 				<strong>3. Ask thoughtful questions.</strong>
 			</p>
@@ -316,77 +251,63 @@ export default function CodeOfConduct() {
 					<p>
 						We’re all here to help each other out. The best way to get help is
 						by investing effort into your questions. First check and see if your
-						question is answered in{" "}
-						<a href="https://superset.apache.org/faq.html">
-							the Superset documentation
-						</a>{" "}
-						or on{" "}
-						<a href="https://stackoverflow.com/search?q=apache+superset">
-							Stack Overflow
-						</a>
-						. You can also check{" "}
-						<a href="https://github.com/apache/superset/issues">
-							GitHub issues
-						</a>{" "}
-						to see if your question or feature request has been submitted
-						before. Then, use Slack search to see if your question has already
-						been asked and answered in the past. If you still feel the need to
-						ask a question, make sure you include:
+						question is answered in Github Wiki, Discord Channels or in READMEs.
+						Then, use Discord search to see if your question has already been
+						asked and answered in the past. If you still feel the need to ask a
+						question, make sure you include:
 					</p>
 				</li>
-				<li>
-					<p>The steps you’ve already taken</p>
-				</li>
-				<li>
-					Relevant details presented cleanly (text stacktraces, formatted
-					markdown, or screenshots. Please don’t paste large blocks of code
-					unformatted or post photos of your screen from your phone)
-				</li>
-				<li>
-					The specific question you have or the specific type of help you&#39;re
-					seeking
-				</li>
+				<ul className="list-inside list-disc">
+					<li>The steps you’ve already taken</li>
+					<li>
+						Relevant details presented cleanly (text stacktraces, formatted
+						markdown, or screenshots. Please don’t paste large blocks of code
+						unformatted or post photos of your screen from your phone)
+					</li>
+					<li>
+						The specific question you have or the specific type of help
+						you&#39;re seeking
+					</li>
+				</ul>
 			</ul>
+			<br />
 			<p>
 				<strong>4. Avoid double posting</strong>
 			</p>
-			<ul>
-				<li>
-					This Slack community is not a customer support channel and all members
-					are here voluntarily. If you aren’t getting a response to a question
-					you have, make sure you look at rules 1, 2, and 3. It’s also worth
-					remembering that there may not be someone in the community who has the
-					context to help you out.
-				</li>
-			</ul>
+			<p>
+				This Discord community is not a customer support channel and all members
+				are here voluntarily. If you aren’t getting a response to a question you
+				have, make sure you look at rules 1, 2, and 3. It’s also worth
+				remembering that there may not be someone in the community who has the
+				context to help you out.
+			</p>
+			<br />
 			<p>
 				<strong>5. Communicate openly</strong>
 			</p>
-			<ul>
-				<li>
-					Unless you have explicit permission from the person, please avoid
-					sending direct messages to individuals. Communicating in public
-					channels ensures that we’re all respecting each other’s attentions and
-					we can scalably moderate our communication to mitigate harassment or
-					discrimination. Do not use direct messages to pitch products and
-					services. If you are receiving unwelcome direct messages, please
-					notify an admin.
-				</li>
-			</ul>
+			<p>
+				Unless you have explicit permission from the person, please avoid
+				sending direct messages to individuals. Communicating in public channels
+				ensures that we’re all respecting each other’s attentions and we can
+				scalably moderate our communication to mitigate harassment or
+				discrimination. Do not use direct messages to pitch products and
+				services. If you are receiving unwelcome direct messages, please notify
+				an admin.
+			</p>
 			<p>
 				<strong>
-					6. Practice good Slack hygiene by using threads for discussions and
+					6. Practice good Discord hygiene by using threads for discussions and
 					emojis for light reactions.
 				</strong>
 			</p>
 			<ul>
 				<li>
-					The medium is the message. Slack can foster a warm, collaborative, and
-					organized community when used effectively. We want to respect people’s
-					attentions (thread notifications &gt; channel notifications &gt; DM
-					notifications) and we want to improve information density (a member
-					should be able to browse and explore many convo threads, not just see
-					one thread discussed in a top level channel).
+					The medium is the message. Discord can foster a warm, collaborative,
+					and organized community when used effectively. We want to respect
+					people’s attentions (thread notifications &gt; channel notifications
+					&gt; DM notifications) and we want to improve information density (a
+					member should be able to browse and explore many convo threads, not
+					just see one thread discussed in a top level channel).
 				</li>
 			</ul>
 		</div>
