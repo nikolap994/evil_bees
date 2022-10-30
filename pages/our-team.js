@@ -41,18 +41,6 @@ export default function OurTeam() {
 														alt="Email"
 													/>
 												</Link>
-												<Link
-													className="inline-block m-1"
-													href={member.linkedin}
-												>
-													<Image
-														src="/ln.png"
-														width="30"
-														height="30"
-														loading="lazy"
-														alt="Linkedin"
-													/>
-												</Link>
 												<Link className="inline-block m-1" href={member.github}>
 													<Image
 														src="/github.png"
@@ -60,18 +48,6 @@ export default function OurTeam() {
 														height="30"
 														loading="lazy"
 														alt="Github"
-													/>
-												</Link>
-												<Link
-													className="inline-block m-1"
-													href={member.twitter}
-												>
-													<Image
-														src="/twitter.png"
-														width="30"
-														height="30"
-														loading="lazy"
-														alt="Twitter"
 													/>
 												</Link>
 											</div>
