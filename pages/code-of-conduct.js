@@ -294,6 +294,7 @@ export default function CodeOfConduct() {
 				services. If you are receiving unwelcome direct messages, please notify
 				an admin.
 			</p>
+			<br/>
 			<p>
 				<strong>
 					6. Practice good Discord hygiene by using threads for discussions and

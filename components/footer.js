@@ -22,6 +22,25 @@ export default function Footer() {
 							/>
 						</Link>
 					</div>
+					<div className="flex mt-6 text-sm text-slate-500 sm:mt-0">
+						{" "}
+						<Link
+							className="block mt-4 lg:inline-block lg:mt-0 text-white-400 hover:text-white mr-4"
+							href="/code-of-conduct"
+						>
+							Code of Conduct
+						</Link>
+					</div>
+					<div className="flex mt-6 text-sm text-slate-500 sm:mt-0">
+						{" "}
+						<Link
+							className="block mt-4 lg:inline-block lg:mt-0 text-white-400 hover:text-white mr-4"
+							href="/cookie-policy"
+						>
+							Cookie Policy
+						</Link>
+					</div>
+
 					<p className=" flex mt-8 text-base leading-6 text-white">
 						A constructive and inclusive community for software developers. With
 						you every step of your journey.

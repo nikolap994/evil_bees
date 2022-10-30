@@ -33,12 +33,6 @@ export default function Navigation() {
 							</Link>
 							<Link
 								className="block mt-4 lg:inline-block lg:mt-0 text-white-400 hover:text-white mr-4"
-								href="/code-of-conduct"
-							>
-								Code of Conduct
-							</Link>
-							<Link
-								className="block mt-4 lg:inline-block lg:mt-0 text-white-400 hover:text-white mr-4"
 								href="/contact"
 							>
 								Contact us
