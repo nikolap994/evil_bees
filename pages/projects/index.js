@@ -3,10 +3,17 @@ import matter from "gray-matter";
 import Image from "next/image";
 import Link from "next/link";
 
+function date_sort(a, b) {
+	return (
+		new Date(b.frontmatter.date).getTime() -
+		new Date(a.frontmatter.date).getTime()
+	);
+}
+
 export async function getStaticProps() {
 	const files = fs.readdirSync("content/projects");
 
-	const posts = files.map(fileName => {
+	let posts = files.map(fileName => {
 		const slug = fileName.replace(".md", "");
 		const readFile = fs.readFileSync(`content/projects/${fileName}`, "utf-8");
 		const { data: frontmatter } = matter(readFile);
@@ -15,7 +22,7 @@ export async function getStaticProps() {
 			frontmatter,
 		};
 	});
-
+	posts = posts.sort(date_sort);
 	return {
 		props: {
 			posts,
