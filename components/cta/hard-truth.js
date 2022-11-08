@@ -7,7 +7,7 @@ export default function HardTruthCTA() {
 	const [boxStyle, setBoxStyle] = useState(0);
 
 	return (
-		<div className="relative overflow-hidden bg-indigo-900 pt-20 pb-28 sm:py-32">
+		<div className="relative overflow-hidden bg-indigo-900 pt-20 pb-28 sm:py-32 bg-idea-pattern bg-repeat animate-ltr-linear-infinite">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
 				<div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
 					<Image
