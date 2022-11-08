@@ -1,6 +1,6 @@
 export default function StandForCTA() {
 	return (
-		<div className="relative overflow-hidden bg-indigo-900 py-32">
+		<div className="relative overflow-hidden bg-indigo-900 py-32 bg-geo-pattern bg-repeat animate-rtl-linear-infinite">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
 				<h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
 					What We Stand For ?
