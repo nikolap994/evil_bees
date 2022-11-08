@@ -34,6 +34,9 @@ function MyApp({ Component, pageProps: pageProps }) {
 				enableDeclineButton
 				onAccept={handleAcceptCookie}
 				onDecline={handleDeclineCookie}
+				buttonClasses="bg-emerald-500"
+				containerClasses="bg-white color-black"
+				contentClasses="py-2"
 			>
 				This website uses cookies to enhance the user experience.
 			</CookieConsent>
