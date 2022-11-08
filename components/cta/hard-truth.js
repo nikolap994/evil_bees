@@ -1,8 +1,11 @@
 import Image from "next/image";
+import { React, useState } from "react";
 
 import mouthIcon from "../../public/images/mouthF.png";
 
 export default function HardTruthCTA() {
+	const [boxStyle, setBoxStyle] = useState(0);
+
 	return (
 		<div className="relative overflow-hidden bg-indigo-900 pt-20 pb-28 sm:py-32">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
@@ -43,12 +46,15 @@ export default function HardTruthCTA() {
 										tabIndex="-1"
 										data-headlessui-state=""
 										aria-controls="headlessui-tabs-panel-:Rda9m:"
+										onClick={() => setBoxStyle("block")}
 									>
 										<span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-										1
+										1. Some title here
 									</button>
 								</h3>
-								<p className="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
+								<p
+									className={`hidden mt-2 hidden text-sm text-blue-100 group-hover:text-white ${boxStyle}`}
+								>
 									Lorem Ipsum is simply dummy text of the printing and
 									typesetting industry. Lorem Ipsum has been the industry’s
 									standard dummy text ever since the 1500s, when an unknown
