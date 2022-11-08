@@ -5,7 +5,7 @@ export default function Navigation() {
 	return (
 		<header className="bg-indigo-900 mb-10">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  text-white">
-				<nav className="flex items-center justify-between flex-wrap p-6">
+				<nav className="flex items-center justify-between lg:flex-wrap p-6">
 					<div className="flex items-center flex-shrink-0 text-white mr-6">
 						<Link href="/">
 							<Image
@@ -18,7 +18,7 @@ export default function Navigation() {
 						</Link>
 					</div>
 					<div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-						<div className="text-l lg:flex-grow">
+						<div className="text-lg flex lg:flex-grow">
 							<Link
 								className="block mt-4 lg:inline-block lg:mt-0 text-white-400 hover:text-white mr-4"
 								href="/projects"
