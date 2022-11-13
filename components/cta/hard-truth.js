@@ -4,10 +4,8 @@ import { React, useState } from "react";
 import mouthIcon from "../../public/images/mouthF.png";
 
 export default function HardTruthCTA() {
-	const [boxStyle, setBoxStyle] = useState(0);
-
 	return (
-		<div className="relative overflow-hidden bg-indigo-900 pt-20 pb-28 sm:py-32 bg-idea-pattern bg-repeat animate-ltr-linear-infinite">
+		<div className="relative overflow-hidden bg-indigo-900 pt-20 pb-28 sm:py-32">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
 				<div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
 					<Image
@@ -39,32 +37,23 @@ export default function HardTruthCTA() {
 							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
 								<h3>
 									<button
-										className="font-display text-lg text-blue-100 hover:text-white lg:text-white"
+										className="font-display text-lg [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
 										role="tab"
 										type="button"
 										aria-selected="false"
 										tabIndex="-1"
 										data-headlessui-state=""
 										aria-controls="headlessui-tabs-panel-:Rda9m:"
-										onClick={() => setBoxStyle("block")}
 									>
 										<span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-										1. Some title here
+										Challenge Solutions
 									</button>
 								</h3>
-								<p
-									className={`hidden mt-2 hidden text-sm text-blue-100 group-hover:text-white ${boxStyle}`}
-								>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry’s
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-									the release of Letraset sheets containing Lorem Ipsum
-									passages, and more recently with desktop publishing software
-									like Aldus PageMaker including versions of Lorem Ipsum.
+								<p className="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
+									We come up with best practices when we are trying to solve a
+									particular problem. But the problem you are trying to solve
+									doesn’t necessarily have to be the same, so why should the
+									solution be the same?
 								</p>
 							</div>
 							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
@@ -79,48 +68,15 @@ export default function HardTruthCTA() {
 										aria-controls="headlessui-tabs-panel-:Rda9m:"
 									>
 										<span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-										1.
+										Collaborate
 									</button>
 								</h3>
 								<p className="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry’s
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-									the release of Letraset sheets containing Lorem Ipsum
-									passages, and more recently with desktop publishing software
-									like Aldus PageMaker including versions of Lorem Ipsum.
-								</p>
-							</div>
-							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
-								<h3>
-									<button
-										className="font-display text-lg [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
-										role="tab"
-										type="button"
-										aria-selected="false"
-										tabIndex="-1"
-										data-headlessui-state=""
-										aria-controls="headlessui-tabs-panel-:Rda9m:"
-									>
-										<span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-										1.
-									</button>
-								</h3>
-								<p className="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry’s
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-									the release of Letraset sheets containing Lorem Ipsum
-									passages, and more recently with desktop publishing software
-									like Aldus PageMaker including versions of Lorem Ipsum.
+									Instead of just consuming content from the community,
+									collaborate with others,try to take part in community with
+									your own code and be helpful. You will gain a sense of pride
+									and validation. It gets addictive. Then you will find ways to
+									bring more value and grow as a developer.
 								</p>
 							</div>
 						</div>
