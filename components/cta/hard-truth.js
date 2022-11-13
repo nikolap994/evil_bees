@@ -34,44 +34,18 @@ export default function HardTruthCTA() {
 							role="tablist"
 							aria-orientation="vertical"
 						>
-							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
-								<h3>
-									<button
-										className="font-display text-lg [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
-										role="tab"
-										type="button"
-										aria-selected="false"
-										tabIndex="-1"
-										data-headlessui-state=""
-										aria-controls="headlessui-tabs-panel-:Rda9m:"
-									>
-										<span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-										Challenge Solutions
-									</button>
-								</h3>
-								<p className="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
+							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6">
+								<h3 className="text-white">Challenge Solutions</h3>
+								<p className="mt-2 hidden text-sm lg:block text-white">
 									We come up with best practices when we are trying to solve a
 									particular problem. But the problem you are trying to solve
 									doesn’t necessarily have to be the same, so why should the
 									solution be the same?
 								</p>
 							</div>
-							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 hover:bg-white/10 lg:hover:bg-white/5">
-								<h3>
-									<button
-										className="font-display text-lg [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
-										role="tab"
-										type="button"
-										aria-selected="false"
-										tabIndex="-1"
-										data-headlessui-state=""
-										aria-controls="headlessui-tabs-panel-:Rda9m:"
-									>
-										<span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-										Collaborate
-									</button>
-								</h3>
-								<p className="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
+							<div className="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6">
+								<h3 className="text-white">Collaborate</h3>
+								<p className="mt-2 hidden text-sm lg:block text-white">
 									Instead of just consuming content from the community,
 									collaborate with others,try to take part in community with
 									your own code and be helpful. You will gain a sense of pride
