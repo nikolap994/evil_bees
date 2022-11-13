@@ -9,10 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "gray-matter": "^4.0.3",
-    "markdown-it": "^13.0.1",
-    "mongoose": "^6.6.7",
     "next": "^13.0.0",
     "nextjs-google-analytics": "^2.2.0",
     "react": "^18.2.0",
