@@ -46,6 +46,7 @@ export default function Projects({ posts }) {
 								alt={frontmatter.title}
 								src={frontmatter.socialImage}
 							/>
+							<p className="p-4">{frontmatter.description}</p>
 							<h1 className="p-4">{frontmatter.title}</h1>
 						</Link>
 					</div>
