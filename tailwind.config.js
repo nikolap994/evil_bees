@@ -8,8 +8,8 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'geo-pattern': "url('/images/geometric-bg.png')",
-				'idea-pattern': "url('/images/analyse.png')",
+				'geo-pattern': "url('/images/moving-cubes.gif')",
+				'idea-pattern': "url('/images/rocket-icon.png')",
 			},
 			animation: {
 				'ltr-linear-infinite': 'ltr-linear-infinite 100s linear infinite',

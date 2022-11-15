@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navigation() {
 	return (
-		<header className="bg-indigo-900 mb-10">
+		<header className="bg-black">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  text-white">
 				<nav className="flex items-center justify-between lg:flex-wrap p-6">
 					<div className="flex items-center flex-shrink-0 text-white mr-6">
