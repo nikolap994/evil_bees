@@ -5,9 +5,11 @@ export default function HomepageHero() {
 				<h1 className="z-10 p-4 max-w-4xl bg-black font-display text-6xl font-medium tracking-tight text-left">
 					Lack the drive to level up as a developer? You’re in the right place!
 				</h1>
+				{/* // typing animation */}
 				<p className="mx-auto lg:mx-0 mt-16 max-w-2xl text-2xl tracking-tight lg:text-left">
-					Make learning, levelling up &mdash; fun and interactive.
+					Make learning, levelling up &mdash; fun and interactive. 
 				</p>
+				<p>Working together towards some great web applications.</p>
 			</div>
 		</section>
 	);
