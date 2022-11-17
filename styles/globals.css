@@ -11,3 +11,21 @@ div#__next {
 main {
 	@apply h-full;
 }
+
+@import "./typography.css";
+
+@layer base {
+	body {
+		font-family: "NotoSans-Regular";
+	}
+
+	h1,
+	h2 {
+		font-family: "NotoSans-Bold";
+	}
+
+	h3,
+	h4 {
+		font-family: "NotoSans-Regular";
+	}
+}

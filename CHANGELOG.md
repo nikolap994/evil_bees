@@ -10,5 +10,7 @@ All notable changes to this project will be documented in this file.
 - Solving Problems component
 - What We Stand For component
 - ltr, rtl tailwind animations
+- Add NotoSans font family
+
 ### Changed
 - Split index into components
