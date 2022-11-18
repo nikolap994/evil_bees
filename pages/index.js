@@ -15,3 +15,10 @@ export default function Home() {
 		</section>
 	);
 }
+
+// background: #fff;
+//     box-shadow: 0 32px 18px -20px var(--public-light-shadow-neutral);
+//     transform: translateY(-4px) scale(1.03);
+//     transition: var(--public-transition-hover-blur-cta);
+//     transition-property: background-color,box-shadow,transform;
+
