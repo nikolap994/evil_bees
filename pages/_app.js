@@ -5,7 +5,7 @@ import CookieConsent, {
 	Cookies,
 } from "react-cookie-consent";
 import Head from "next/head";
-
+import { Analytics } from '@vercel/analytics/react';
 import Layout from "../components/layout";
 
 import "../styles/globals.css";
@@ -54,6 +54,7 @@ function MyApp({ Component, pageProps: pageProps }) {
 			) : (
 				""
 			)}
+			<Analytics />
 		</Layout>
 	);
 }
