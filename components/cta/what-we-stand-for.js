@@ -8,9 +8,9 @@ export default function StandForCTA() {
         <p className="mt-4 text-lg tracking-tight text-white">
           We are not a web development organization, nor a marketing
           organization. We are a group of like-minded individuals who are
-          unified by a single idea — **create something great, learn & improve
-          ourselves along the way.** All of the projects and ideas we work on
-          are created using the **latest technologies,** and we look into every
+          unified by a single idea — <strong>create something great, learn & improve
+          ourselves along the way.</strong> All of the projects and ideas we work on
+          are created using the <strong>latest technologies,</strong> and we look into every
           aspect of the development before committing to a tech stack. We think
           that communication and planning is key, and don’t go into projects
           without thinking every aspect through. However, should things go awry,
