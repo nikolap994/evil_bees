@@ -50,6 +50,12 @@ export default function Navigation() {
 								>
 									Our Team
 								</Link>
+								<Link
+									className="block lg:inline-block text-white-400 hover:text-white mr-4"
+									href="/code-of-conduct"
+								>
+									Code of Conduct
+								</Link>
 							</div>
 						</div>
 						<Link

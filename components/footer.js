@@ -12,26 +12,6 @@ export default function Footer() {
 					</p>
 					<div className="flex justify-between items-center">
 						<div className="flex mt-6 text-sm text-slate-500 sm:mt-0">
-							{" "}
-							<Link
-								className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
-								href="/cookie-policy"
-							>
-								Cookie Policy
-							</Link>
-						</div>
-
-						<div className="flex mt-6 text-sm text-slate-500 sm:mt-0">
-							{" "}
-							<Link
-								className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
-								href="/code-of-conduct"
-							>
-								Code of Conduct
-							</Link>
-						</div>
-
-						<div className="flex mt-6 text-sm text-slate-500 sm:mt-0">
 							<Link href="/">
 								<Image
 									priority={true}
