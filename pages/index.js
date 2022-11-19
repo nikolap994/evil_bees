@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import OpenSourceFAQ from "../components/cta/open-source-faq";
 import HardTruthCTA from "../components/cta/hard-truth";
 import StandForCTA from "../components/cta/what-we-stand-for";
@@ -6,13 +8,18 @@ import HomepageHero from "../components/hero/homepage-hero";
 
 export default function Home() {
 	return (
-		<section>
-			<HomepageHero />
-			<HardTruthCTA />
-			<OpenSourceFAQ />
-			<StandForCTA />
-			<SolvingProblems />
-		</section>
+		<>
+			<Head>
+				<title>Evil Bees</title>
+			</Head>
+			<section>
+				<HomepageHero />
+				<HardTruthCTA />
+				<OpenSourceFAQ />
+				<StandForCTA />
+				<SolvingProblems />
+			</section>
+		</>
 	);
 }
 
@@ -21,4 +28,3 @@ export default function Home() {
 //     transform: translateY(-4px) scale(1.03);
 //     transition: var(--public-transition-hover-blur-cta);
 //     transition-property: background-color,box-shadow,transform;
-
