@@ -7,16 +7,19 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			extend: {
-				fontFamily: {
-				  "catamaran-light": ["Noto-Light"],
-				  "catamaran-regular": ["Noto-Regular"],
-				  "catamaran-medium": ["Noto-Medium"],
-				  "catamaran-bold": ["Noto-Bold"],
-				},
+			fontFamily: {
+				"catamaran-light": ["Noto-Light"],
+				"catamaran-regular": ["Noto-Regular"],
+				"catamaran-medium": ["Noto-Medium"],
+				"catamaran-bold": ["Noto-Bold"],
+			},
+			colors: {
+				'black-opacity': 'rgba(0, 0, 0, 0.54)',
+				'zinc-800-opacity': 'rgba(39, 39, 42, 0.54)',
 			},
 			backgroundImage: {
 				'geo-pattern': "url('/images/moving-cubes.gif')",
+				'lines-pattern': "url('/images/flashing-lines.gif')",
 				'idea-pattern': "url('/images/rocket-icon.png')",
 			},
 			animation: {
