@@ -63,7 +63,7 @@ export default function CodeOfConduct() {
 							some frustration from time to time, but we can not allow
 							frustration to turn into any sort of personal attack. After all, a
 							community where people feel uncomfortable or threatened is not a
-							productive one. It's imperitive for all to remain respectful when
+							productive one. It&apos;s imperitive for all to remain respectful when
 							dealing with other community members as well as those outside of
 							our community.
 						</p>
@@ -242,7 +242,7 @@ export default function CodeOfConduct() {
 				<p>
 					We strive to make this community a welcoming place for people - from
 					all industries, use cases, geographies, backgrounds and walks of life.
-					Harassment of any kind is not acceptable and won’t be tolerated.
+					Harassment of any kind is not acceptable and won&apos;t be tolerated.
 				</p>
 				<br />
 				<p>
@@ -251,7 +251,7 @@ export default function CodeOfConduct() {
 				<p>
 					Channels are an effective way for organizing and focusing discussions
 					while also empowering members to opt-in to the types of content
-					they’re interested in. When questions are posted or discussions are
+					they&apos;re interested in. When questions are posted or discussions are
 					started in the wrong channel, it dilutes the trust of the members in
 					the channel and, more practically, makes it harder for your questions
 					to be answered.
@@ -263,19 +263,19 @@ export default function CodeOfConduct() {
 				<ul>
 					<li>
 						<p>
-							We’re all here to help each other out. The best way to get help is
+							We&apos;re all here to help each other out. The best way to get help is
 							by investing effort into your questions. First check and see if
 							your question is answered in Github Wiki, Discord Channels or in
-							the project's README. Then, use Discord search to see if your
+							the project&apos;s README. Then, use Discord search to see if your
 							question has already been asked and answered in the past. If you
 							still feel the need to ask a question, make sure you include:
 						</p>
 					</li>
 					<ul className="list-inside list-disc">
-						<li>The steps you’ve already taken</li>
+						<li>The steps you&apos;ve already taken</li>
 						<li>
 							Relevant details presented cleanly (text stacktraces, formatted
-							markdown, or screenshots. Please don’t paste large blocks of code
+							markdown, or screenshots. Please don&apos;t paste large blocks of code
 							unformatted or post photos of your screen from your phone).
 						</li>
 						<li>
@@ -302,7 +302,7 @@ export default function CodeOfConduct() {
 				<p>
 					Unless you have explicit permission from the person, please avoid
 					sending direct messages to individuals. Communicating in public
-					channels ensures that we’re all respecting each other’s attentions and
+					channels ensures that we&apos;re all respecting each other&apos;s attentions and
 					we can scalably moderate our communication to mitigate harassment or
 					discrimination. Do not use direct messages to pitch products and
 					services. If you are receiving unwelcome direct messages, please
@@ -319,7 +319,7 @@ export default function CodeOfConduct() {
 					<li>
 						The medium is the message. Discord can foster a welcoming,
 						collaborative, and organized community when used effectively. We
-						want to respect people’s attentions (thread notifications &gt;
+						want to respect people&apos;s attentions (thread notifications &gt;
 						channel notifications &gt; DM notifications) and we want to improve
 						information density (a member should be able to browse and explore
 						many convo threads, not just see one thread discussed in a top level
