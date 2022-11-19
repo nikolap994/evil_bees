@@ -1,6 +1,6 @@
 export default function Growth() {
 	return (
-		<section className="bg-indigo-900 text-white mt-20 py-12 px-8">
+		<section className="bg-indigo-900 text-white pt-20 lg:mt-0 py-12 px-8">
 			<div className="max-w-7xl mx-auto">
 				<h3 className="font-display text-4xl tracking-tight text-center mt-3 mb-12">
 					There are several components that are integral for growth:
