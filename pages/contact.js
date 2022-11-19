@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 import Contacts from "../content/team.json";
 import Image from "next/image";
@@ -9,9 +10,9 @@ export default function Contact() {
 			<Head>
 				<title>Contact Us</title>
 			</Head>
-			<div className="container m-auto px-6 md:px-12 xl:px-6">
-				<div className="flex flex-wrap">
-					<div className="basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6 mt-20">
+			<section className="container m-auto px-6 md:px-12 xl:px-6 my-12 lg:my-20">
+				<div className="flex flex-wrap items-center	items-center">
+					<div className="basis-auto w-full md:w-6/12 px-3 lg:px-6 lg:mt-20">
 						<h2 className="text-3xl font-bold mb-6">
 							Get in touch, we’d love to hear from you
 						</h2>
@@ -21,9 +22,11 @@ export default function Contact() {
 						</p>
 						{Object.entries(Contacts).map(([key, contact]) => {
 							return (
-								<p key={key} className="text-black-500 mb-1">
-									{contact.name} - {contact.email}
-								</p>
+								<Link href={`mailto:${contact.email}`}>
+									<p key={key} className="text-black-500 mb-1">
+										{contact.name} - {contact.email}
+									</p>
+								</Link>
 							);
 						})}
 					</div>
@@ -36,7 +39,7 @@ export default function Contact() {
 						/>
 					</div>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 }
