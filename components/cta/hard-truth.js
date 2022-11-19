@@ -28,12 +28,12 @@ export default function HardTruthCTA() {
         </div>
 
         <div>
-          <div className="bg-zinc-900 text-white mt-20 p-8">
+          <div className="bg-zinc-900 text-white mt-20 py-12 px-8">
             <h3 className="font-display text-3xl tracking-tight text-center mt-3 mb-12">
               There are several components that are integral for growth:
             </h3>
             <div
-              className="relative z-10 grid grid-cols-2 grid-rows-4 items-baseline text-center whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:whitespace-normal"
+              className="relative z-10 grid grid-cols-2 items-baseline text-center whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:whitespace-normal"
               role="tablist"
               aria-orientation="vertical"
             >
@@ -50,7 +50,7 @@ export default function HardTruthCTA() {
                   your own.
                 </p>
               </div>
-              <div className="group flex flex-col row-start-2 col-start-2 gap-y-4 rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:py-5">
+              <div className="group flex flex-col gap-y-4 rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:py-5">
                 <h3 className="animate-pulse bg-white text-black border-2 p-3 rounded-md text-2xl">
                   Collaboration
                 </h3>
@@ -62,7 +62,7 @@ export default function HardTruthCTA() {
                   bring more value and grow as a developer.
                 </p>
               </div>
-              <div className="group row-start-3 col-start-1 flex flex-col gap-y-4 rounded-full px-4 lg:rounded-r-none lg:rounded-l-xl lg:px-5 lg:py-5">
+              <div className="group flex flex-col gap-y-4 rounded-full px-4 lg:rounded-r-none lg:rounded-l-xl lg:px-5 lg:py-5">
                 <h3 className="animate-pulse bg-white text-black border-2 p-3 rounded-md text-2xl">
                   Solve real-life problems
                 </h3>
@@ -73,7 +73,7 @@ export default function HardTruthCTA() {
                   real-life problems that require thought out solutions.
                 </p>
               </div>
-              <div className="group col-start-2 row-start-4 flex flex-col gap-y-4 rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:py-5">
+              <div className="group flex flex-col gap-y-4 rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:py-5">
                 <h3 className="animate-pulse bg-white text-black border-2 p-3 rounded-md text-2xl">
                   Being part of a community
                 </h3>

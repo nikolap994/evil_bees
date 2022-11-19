@@ -1,9 +1,9 @@
 export default function OpenSourceFAQ() {
   return (
-    <section className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32">
+    <section className="py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div>
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+          <h2 className="font-display mb-8 text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Why Open Source?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
