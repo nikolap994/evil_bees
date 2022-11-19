@@ -55,7 +55,7 @@ export default function AlertIt() {
 			</p>
 			<p>
 				There are times when things go wrong. Be informed! Even the strongest
-				among us have downtime. However, it's crucial to be aware of it before
+				among us have downtime. However, it&apos;s crucial to be aware of it before
 				clients are impacted!
 			</p>
 			<p className="mt-4 text-lg tracking-tight text-slate-700">
