@@ -12,6 +12,6 @@ All notable changes to this project will be documented in this file.
 - ltr, rtl tailwind animations
 - NotoSans font family
 - Homepage hero typewriter animation
-
+- Mobile menu
 ### Changed
 - Split index into components
