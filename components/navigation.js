@@ -9,7 +9,7 @@ export default function Navigation() {
 
 	return (
 		<>
-			<header className="bg-black">
+			<header className="bg-indigo-900">
 				<nav className="flex flex-col max-w-7xl mx-auto">
 					<VscListSelection
 						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6"
@@ -17,7 +17,7 @@ export default function Navigation() {
 					/>
 
 					<div
-						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 px-6 lg:px-12 md:px-6 pt-0 lg:px-8 text-white ${
+						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 pt-0 px-4 sm:px-6 lg:px-8 text-white ${
 							isNavOpen ? "showMenuNav" : "hideMenuNav"
 						}`}
 					>
@@ -25,7 +25,7 @@ export default function Navigation() {
 							className={`lg:hidden fill-white self-end w-6 h-6 my-6`}
 							onClick={() => setIsNavOpen(false)}
 						/>
-						<div className="self-start flex items-center flex-shrink-0 text-white mr-6">
+						<div className="self-center lg:self-start flex items-center flex-shrink-0 text-white mr-6">
 							<Link href="/">
 								<Image
 									priority={true}
@@ -36,8 +36,8 @@ export default function Navigation() {
 								/>
 							</Link>
 						</div>
-						<div className="w-full block lg:flex lg:items-center lg:w-auto">
-							<div className="text-lg flex flex-col gap-y-4 lg:flex-row justify-end gap-x-4 lg:flex-grow mb-8 lg:mb-0">
+						<div className="w-full text-center block lg:flex lg:items-center lg:w-3/4 mb-4 lg:mb-0">
+							<div className="text-lg flex flex-col gap-y-10 lg:gap-y-4 lg:flex-row justify-end gap-x-4 lg:flex-grow mb-8 lg:mb-0">
 								<Link
 									className="block lg:inline-block text-white-400 hover:text-white mr-4"
 									href="/projects"
