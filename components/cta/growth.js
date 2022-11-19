@@ -1,5 +1,5 @@
 export default function HardTruthCTA() {
-return (	
+return (
 <section className="bg-indigo-900 text-white mt-20 py-12 px-8">
     <div className="max-w-7xl mx-auto">
     <h3 className="font-display text-4xl tracking-tight text-center mt-3 mb-12">
@@ -15,11 +15,11 @@ return (
             Coming up with Solutions
         </h3>
         <p className="text-left text-indigo-100 text-justify my-8 lg:mt-2 lg:mb-0 text-md">
-            We tend to get the best results when we're trying to solve a
+            We tend to get the best results when we&apos;re trying to solve a
             specific problem that has been put in front of us. These are
             also the times when we find ourselves learning and growing the
             most. Here, tutorials will, once again, fall short. After all,
-            you're just replicating someone else's pre-planned issue, not
+            you&apos;re just replicating someone else&apos;s pre-planned issue, not
             your own.
         </p>
         </div>
@@ -41,8 +41,8 @@ return (
         </h3>
         <p className="text-left text-indigo-100 text-justify my-8 lg:mt-2 lg:mb-0 text-md">
             Oftentimes, people will hit a wall, or fall into the dreaded{" "}
-            <span className="italic">tutorial hell</span> — and can't seem
-            to dig ourselves out. That's why our approach involves
+            <span className="italic">tutorial hell</span> — and can&apos;t seem
+            to dig ourselves out. That&apos;s why our approach involves
             real-life problems that require thought out solutions.
         </p>
         </div>
@@ -52,7 +52,7 @@ return (
         </h3>
         <p className="text-left text-indigo-100 text-justify my-8 lg:mt-2 lg:mb-0 text-md">
             The road to growing as a developer can often feel very lonely,
-            especially when you're just starting out. Luckily, Evil Bees
+            especially when you&apos;re just starting out. Luckily, Evil Bees
             comes with a built in support system. Whether you need someone
             to help you solve a problem, want to discuss a project idea,
             or just talk about new technologies and things happening in
