@@ -13,5 +13,7 @@ All notable changes to this project will be documented in this file.
 - NotoSans font family
 - Homepage hero typewriter animation
 - Mobile menu
+- 404 page
+
 ### Changed
 - Split index into components
