@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function AlertIt() {
 	return (
@@ -68,6 +69,8 @@ export default function AlertIt() {
 					open-minded. Customers should be informed of scheduled interruptions.
 					Show them how you are thriving to provide a 100% online service.
 				</p>
+				<br/>
+				<Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/Evil-Bees/alertit">Visit the Github repository</Link>
 			</div>
 		</>
 	);

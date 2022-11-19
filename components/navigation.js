@@ -52,9 +52,9 @@ export default function Navigation() {
 								</Link>
 								<Link
 									className="block lg:inline-block text-white-400 hover:text-white mr-4"
-									href="/contact"
+									href="/code-of-conduct"
 								>
-									Contact us
+									Code of Conduct
 								</Link>
 							</div>
 						</div>
@@ -68,7 +68,7 @@ export default function Navigation() {
 				</nav>
 			</header>
 			<style>{`
-		
+
 			@media screen and (max-width: 1023px) {
 				.hideMenuNav {
 				display: none;

@@ -36,18 +36,6 @@ export default function OurTeam() {
 												<div className="float-right">
 													<Link
 														className="inline-block m-1"
-														href={"mailto:" + member.email}
-													>
-														<Image
-															src="/email.png"
-															width="30"
-															height="30"
-															loading="lazy"
-															alt="Email"
-														/>
-													</Link>
-													<Link
-														className="inline-block m-1"
 														href={member.github}
 													>
 														<Image

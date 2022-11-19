@@ -4,15 +4,13 @@
 		"github": "https://github.com/nikolap994",
 		"about": "I'm a Software Developer based in Serbia who loves playing with new technologies. I'm constantly on the hunt for new frameworks and trying to improve myself. At the beginning of 2022, I've earned a Ph.D. in computer science. My Ph.D. thesis is Increasing privacy and security by integrating a Blockchain Secure Interface into IoT Device Security. Most of my contributions are open source. I wish to share my knowledge with others, and help people get into this industry. I'm a strong advocate of internet privacy and security.",
 		"photo": "/team/nikolap994.png",
-		"role": "Founder",
-		"email": "nikola@evilbees.com"
+		"role": "Founder"
 	},
 	"1": {
 		"name": "Marija Ćehić",
 		"github": "https://github.com/cehicm",
 		"about": "I'm a Front End Developer developer from Serbia, who is always eager to learn new things and pick up new technologies. Also, learning the how and why behind different ideas and their executions has always piqued my interest. I also have a passion for collaborative work, and think of tutorials as a necessary evil that all beginners should get through as quickly as possible.",
 		"photo": "/team/cehicm.png",
-		"role": "Founder",
-		"email": "marija@evilbees.com"
+		"role": "Co-Founder"
 	}
 }
