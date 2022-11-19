@@ -41,9 +41,9 @@ function MyApp({ Component, pageProps: pageProps }) {
 				enableDeclineButton
 				onAccept={handleAcceptCookie}
 				onDecline={handleDeclineCookie}
-				containerClasses="w-full fixed z-[123] flex justify-between px-12 py-4 border border-double bg-white color-black"
-				buttonClasses="bg-emerald-500 p-2 ml-3"
-				declineButtonClasses="bg-stone-900 text-white p-2"
+				containerClasses="w-full fixed z-[123] flex flex-row md:flex-col gap-y-3 justify-between px-12 py-4 border border-double bg-white color-black"
+				buttonClasses="bg-emerald-500 p-2 ml-3 rounded-sm"
+				declineButtonClasses="bg-stone-900 text-white p-2 rounded-sm"
 				contentClasses="py-2"
 				disableStyles={true}
 			>
