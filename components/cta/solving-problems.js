@@ -10,7 +10,7 @@ export default function SolvingProblems() {
             The Evil Bees community is driven by the diligent effort of upstream
             contributors, bug fixers, designers, and document writers. Moreover,
             it’s made for projects, contributions, opportunities, difficulties,
-            and individuals **that want to have an effect on the community**. If
+            and individuals <strong>that want to have an effect on the community</strong>. If
             you would like to work on design, security, software architecture or
             marketing, come join us ! Lastly, while the projects you see here
             are born by hard work and dedication of our team, we do realize that
