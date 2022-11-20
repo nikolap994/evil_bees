@@ -15,6 +15,16 @@ export default function Navigation() {
 						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6"
 						onClick={() => setIsNavOpen(prev => !prev)}
 					/>
+					<Link href="/" className="lg:hidden self-begin absolute top-0 left-5">
+						<Image
+							priority={true}
+							width="100"
+							height="100"
+							alt="evil-bees"
+							src="/evil-bees.png"
+							onClick={() => setIsNavOpen(false)}
+						/>
+					</Link>
 
 					<div
 						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 pt-0 px-4 sm:px-6 lg:px-8 text-white ${
@@ -33,6 +43,7 @@ export default function Navigation() {
 									height="100"
 									alt="evil-bees"
 									src="/evil-bees.png"
+									onClick={() => setIsNavOpen(false)}
 								/>
 							</Link>
 						</div>
@@ -41,18 +52,21 @@ export default function Navigation() {
 								<Link
 									className="block lg:inline-block text-white-400 hover:text-white mr-4"
 									href="/projects"
+									onClick={() => setIsNavOpen(false)}
 								>
 									Projects
 								</Link>
 								<Link
 									className="block lg:inline-block text-white-400 hover:text-white mr-4"
 									href="/our-team"
+									onClick={() => setIsNavOpen(false)}
 								>
 									Our Team
 								</Link>
 								<Link
 									className="block lg:inline-block text-white-400 hover:text-white mr-4"
 									href="/code-of-conduct"
+									onClick={() => setIsNavOpen(false)}
 								>
 									Code of Conduct
 								</Link>
@@ -61,6 +75,7 @@ export default function Navigation() {
 						<Link
 							className="inline-block text-l px-6 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white"
 							href="https://discord.gg/rvxGNrFhNz"
+							onClick={() => setIsNavOpen(false)}
 						>
 							Join Us!
 						</Link>
