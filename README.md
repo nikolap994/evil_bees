@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+# Welcome to Evil Bees!
+A hard-working group of developer striving towards building a strong community of people who want to learn and grow together. Whether you're a beginner, or a seasoned pro, please free to take a look around our repositories, and checkout issues if you want to contribute.
+
 ## Getting Started
 
 First, run the development server:
