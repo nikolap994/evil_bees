@@ -15,5 +15,8 @@ All notable changes to this project will be documented in this file.
 - Mobile menu
 - 404 page
 
+### Remove 
+- Homepage Hero typewriter animation
+
 ### Changed
 - Split index into components
