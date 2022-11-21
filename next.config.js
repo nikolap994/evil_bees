@@ -1,3 +1,10 @@
+const securityHeaders = [
+	{
+		key: "X-XSS-Protection",
+		value: "1; mode=block",
+	},
+];
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
@@ -5,6 +12,14 @@ const nextConfig = {
 	i18n: {
 		locales: ["en"],
 		defaultLocale: "en",
+	},
+	async headers() {
+		return [
+			{
+				source: "/:path*",
+				headers: securityHeaders,
+			},
+		];
 	},
 };
 
