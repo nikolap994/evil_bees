@@ -14,7 +14,7 @@ export default function CodeOfConduct() {
 					</h1>
 
 					<div className="bg-slate-200 p-8 md:px-12">
-						<div className="max-w-6xl mx-auto">
+						<div className="max-w-7xl mx-auto">
 							<h2 className="font-display text-2xl font-medium tracking-tight text-slate-900 mb-2">
 								INTRODUCTION
 							</h2>
@@ -40,9 +40,9 @@ export default function CodeOfConduct() {
 					</div>
 
 					<div className="bg-slate-300 p-8 md:px-12 text-slate-900 text-lg font-display tracking-tight">
-						<div className="max-w-6xl mx-auto">
+						<div className="max-w-7xl mx-auto">
 							<h2 className="text-2xl mb-2">SPECIFIC GUIDELINES</h2>
-							<p className="font-medium text-lg font-bold underline tracking-tight py-4">
+							<p className="font-medium text-xl font-bold tracking-tight py-4">
 								We strive to:
 							</p>
 							<ul className="list-disc">
@@ -160,7 +160,7 @@ export default function CodeOfConduct() {
 
 					<div className="md:flex">
 						<div className="bg-slate-400 p-8 md:px-12">
-							<div className="max-w-6xl mx-auto">
+							<div className="max-w-7xl mx-auto text-lg">
 								<h2 className="font-display text-2xl font-medium tracking-tight mt-8 mb-2">
 									DIVERSITY STATEMENT
 								</h2>
@@ -187,7 +187,7 @@ export default function CodeOfConduct() {
 						</div>
 
 						<div className="p-8 md:px-12 bg-slate-500">
-							<div className="max-w-6xl mx-auto">
+							<div className="max-w-7xl mx-auto text-lg">
 								<h2 className="font-display text-2xl font-medium tracking-tight mt-8 mb-2">
 									REPORTING GUIDELINES
 								</h2>
@@ -205,27 +205,35 @@ export default function CodeOfConduct() {
 								</p>
 								<p>
 									Finally, assume good faith. It is more likely that
-									participants are unaware of their bad behaviour and are not
+									participants are unaware of their bad behavior and are not
 									intentionally trying to degrade the quality of the discussion.
 									Should there be difficulties in dealing with the situation,
 									you may report your compliance issues in confidence to either:
 								</p>
-								<ul>
-									<li>
-										<Link href="https://github.com/nikolap994">
+								<ul className="pt-6 text-lg">
+									<li className="mb-1">
+										<Link
+											className="text-white hover:underline"
+											href="https://github.com/nikolap994"
+										>
 											Nikola Pavlović
 										</Link>
 									</li>
 									<li>
-										<Link href="https://github.com/cehicm">Marija Ćehić</Link>
+										<Link
+											className="text-white hover:underline"
+											href="https://github.com/cehicm"
+										>
+											Marija Ćehić
+										</Link>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 
-					<div className="p-8 md:px-12 bg-slate-700 text-white">
-						<div className="max-w-6xl mx-auto">
+					<div className="p-8 md:p-12 bg-slate-700 text-white">
+						<div className="max-w-7xl mx-auto">
 							<h2 className="font-display text-2xl font-medium tracking-tight mb-2">
 								ENDNOTES
 							</h2>
@@ -239,11 +247,11 @@ export default function CodeOfConduct() {
 					</div>
 
 					<div className="p-8 md:px-12 bg-slate-800 text-white">
-						<div className="max-w-6xl mx-auto">
+						<div className="max-w-7xl mx-auto">
 							<h2 className="font-display text-2xl font-medium tracking-tight">
 								Discord Community Guidelines
 							</h2>
-							<p>
+							<p className="pt-2">
 								If you decide to join the{" "}
 								<a href="https://discord.gg/rvxGNrFhNz">Community Discord</a>,
 								please adhere to the following rules:
@@ -284,7 +292,7 @@ export default function CodeOfConduct() {
 										to ask a question, make sure you include:
 									</p>
 								</li>
-								<ul className="list-inside list-disc">
+								<ul className="list-inside list-disc pl-4 pt-4 pb-6">
 									<li>The steps you&apos;ve already taken</li>
 									<li>
 										Relevant details presented cleanly (text stacktraces,
