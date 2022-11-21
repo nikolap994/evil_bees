@@ -3,8 +3,13 @@
 	"short_name": "Evil Bees",
 	"icons": [
 	  {
-		"src": "/evil-bees.png",
+		"src": "/evil-bees_192x192.png",
 		"sizes": "192x192",
+		"type": "image/png"
+	  },
+	  {
+		"src": "/evil-bees_512x512.png",
+		"sizes": "512x512",
 		"type": "image/png"
 	  }
 	],
