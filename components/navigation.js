@@ -18,18 +18,17 @@ export default function Navigation() {
 					<Link href="/" className="lg:hidden self-begin absolute top-0 left-5">
 						<Image
 							priority={true}
-							width="100"
-							height="100"
-							alt="evil-bees"
 							src="/evil-bees.png"
+							width="80"
+							height="80"
+							alt="evil-bees logo"
 							onClick={() => setIsNavOpen(false)}
 						/>
 					</Link>
 
 					<div
-						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 pt-0 px-4 sm:px-6 lg:px-8 text-white ${
-							isNavOpen ? "showMenuNav" : "hideMenuNav"
-						}`}
+						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 pt-0 px-4 sm:px-6 lg:px-8 text-white ${isNavOpen ? "showMenuNav" : "hideMenuNav"
+							}`}
 					>
 						<VscChromeClose
 							className={`lg:hidden fill-white self-end w-6 h-6 my-6`}
@@ -73,7 +72,7 @@ export default function Navigation() {
 							</div>
 						</div>
 						<Link
-							className="inline-block text-l px-6 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white"
+							className="inline-block text-l px-6 py-4 leading-none border text-white border-white hover:border-transparent rounded-md hover:text-black hover:bg-white"
 							href="https://discord.gg/rvxGNrFhNz"
 							onClick={() => setIsNavOpen(false)}
 						>
