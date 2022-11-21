@@ -7,7 +7,6 @@ export default function Growth() {
 				</h3>
 				<div
 					className="relative z-10 lg:grid lg:grid-cols-2 items-baseline text-center whitespace-pre-wrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:whitespace-normal"
-					aria-orientation="vertical"
 				>
 					<div className="group flex flex-col gap-y-4 rounded-full px-4 lg:rounded-r-none lg:rounded-l-xl lg:px-5 lg:py-5">
 						<h3 className="text-white p-3 text-2xl">
