@@ -20,6 +20,7 @@ export default function Projects() {
 								height={340}
 								alt="alertit logo"
 								src="/projects/alertit-logo.png"
+								priority={true}
 							/>
 							<div className="bg-white">
 								<h1 className="p-4 pb-0">Alertit</h1>
