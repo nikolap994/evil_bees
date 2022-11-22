@@ -3021,12 +3021,7 @@
     "workbox-webpack-plugin" "^6.5.4"
     "workbox-window" "^6.5.4"
 
-"next-safe@^3.2.1":
-  "integrity" "sha512-2BBbnendVIlbUjrvV/N6cotuba71i2IIczo0dqmpZu9oSl2PlN6hYML22fidcqXZILwghyXULIy4lxyAgPz+Xg=="
-  "resolved" "https://registry.npmjs.org/next-safe/-/next-safe-3.2.1.tgz"
-  "version" "3.2.1"
-
-"next@^13.0.0", "next@^9.5.0 || ^10.2.1 || ^11.1.0", "next@>=11.0.0", "next@>=9.0.0":
+"next@^13.0.0", "next@>=11.0.0", "next@>=9.0.0":
   "integrity" "sha512-puH1WGM6rGeFOoFdXXYfUxN9Sgi4LMytCV5HkQJvVUOhHfC1DoVqOfvzaEteyp6P04IW+gbtK2Q9pInVSrltPA=="
   "resolved" "https://registry.npmjs.org/next/-/next-13.0.0.tgz"
   "version" "13.0.0"
