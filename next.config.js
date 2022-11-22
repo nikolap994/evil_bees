@@ -1,13 +1,18 @@
-<<<<<<< HEAD
-const nextSafe = require("next-safe");
-=======
+const cspPolicy = "default-src 'self';connect-src  'self','preview.contentful.com','*.flippenterprise.net', 'aq.flippenterprise.net','https://www.google-analytics.com','dpm.demdex.net','stats.g.doubleclick.net','lcljoefresh.sc.omtrdc.net','sfml.flippback.com','p.flipp.com','https://sentry.io/', 'https://vitals.vercel-insights.com/'";
 const securityHeaders = [
-	{
-		key: "X-XSS-Protection",
-		value: "1; mode=block",
-	},
+  {
+    key: 'Strict-Transport-Security',
+    value: 'max-age=63072000; includeSubDomains; preload'
+  },
+  {
+    key: 'X-Frame-Options',
+    value: 'SAMEORIGIN'
+  },
+  {
+    key: 'Content-Security-Policy',
+    value: cspPolicy
+  }
 ];
->>>>>>> parent of 44f1f03 (Add next safe)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -21,11 +26,7 @@ const nextConfig = {
 		return [
 			{
 				source: "/:path*",
-<<<<<<< HEAD
-				headers: nextSafe(true),
-=======
 				headers: securityHeaders,
->>>>>>> parent of 44f1f03 (Add next safe)
 			},
 		];
 	},
