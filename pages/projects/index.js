@@ -18,13 +18,18 @@ export default function Projects() {
 							<Image
 								width={650}
 								height={340}
+								sizes="(max-width: 768px) 100vw,
+										(max-width: 1200px) 50vw,
+										3vw"
 								alt="alertit logo"
 								src="/projects/alertit-logo.png"
 								priority={true}
 							/>
 							<div className="bg-white">
 								<h1 className="p-4 pb-0">Alertit</h1>
-								<p className="p-4">Monitoring everything that matters to you.</p>
+								<p className="p-4">
+									Monitoring everything that matters to you.
+								</p>
 							</div>
 						</Link>
 					</div>
