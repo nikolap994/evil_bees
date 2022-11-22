@@ -1,5 +1,5 @@
 const nextSafe = require("next-safe");
-const isDev = process.env.NODE_ENV !== 'production'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
@@ -12,7 +12,7 @@ const nextConfig = {
 		return [
 			{
 				source: "/:path*",
-				headers: nextSafe({ isDev }),
+				headers: nextSafe(true),
 			},
 		];
 	},
