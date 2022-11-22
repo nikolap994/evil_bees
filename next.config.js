@@ -1,10 +1,5 @@
-const securityHeaders = [
-	{
-		key: "X-XSS-Protection",
-		value: "1; mode=block",
-	},
-];
-
+const nextSafe = require("next-safe");
+const isDev = process.env.NODE_ENV !== 'production'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
@@ -17,7 +12,7 @@ const nextConfig = {
 		return [
 			{
 				source: "/:path*",
-				headers: securityHeaders,
+				headers: nextSafe({ isDev }),
 			},
 		];
 	},
