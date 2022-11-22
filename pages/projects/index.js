@@ -20,7 +20,7 @@ export default function Projects() {
 								height={340}
 								sizes="(max-width: 768px) 100vw,
 										(max-width: 1200px) 50vw,
-										3vw"
+										30vw"
 								alt="alertit logo"
 								src="/projects/alertit-logo.png"
 								priority={true}
