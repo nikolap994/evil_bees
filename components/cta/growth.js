@@ -1,7 +1,7 @@
 export default function Growth() {
 	return (
-		<section className="bg-indigo-900 text-white pt-20 lg:mt-0 py-12 px-8">
-			<div className="max-w-7xl mx-auto">
+		<section className="bg-indigo-900 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+			<div className="max-w-7xl mx-auto p-8 lg:p-0">
 				<h3 className="font-display text-4xl tracking-tight text-center mt-3 mb-12">
 					There are several components that are integral for growth:
 				</h3>

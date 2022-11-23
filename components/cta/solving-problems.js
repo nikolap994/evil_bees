@@ -1,7 +1,7 @@
 export default function SolvingProblems() {
 	return (
-		<section className="py-32">
-			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<section className="py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+			<div className="mx-auto max-w-7xl p-8">
 				<div>
 					<h2 className="font-display mb-12 tracking-tight text-slate-900 text-4xl">
 						Solving problems together.

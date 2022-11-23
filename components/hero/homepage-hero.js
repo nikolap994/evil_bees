@@ -12,8 +12,8 @@ export default function HomepageHero() {
 					priority={true}
 				/>
 			</div>
-			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 text-center">
-				<h1 className="z-10 max-w-4xl font-display text-5xl font-medium tracking-tight text-left text-slate-900 sm:text-7xl">
+			<div className="mx-auto max-w-7xl text-center py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+				<h1 className="z-10 max-w-4xl font-display text-5xl font-medium tracking-tight text-left text-slate-900 text-7xl">
 					Lack the drive to level up as a developer? You’re in the right place!
 				</h1>
 				<p className="p-4 mx-auto lg:mx-0 mt-16 max-w-2xl text-2xl tracking-tight text-left">
