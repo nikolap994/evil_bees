@@ -1,0 +1,23 @@
+{
+	"name": "Evil Bees",
+	"short_name": "Evil Bees",
+	"icons": [
+		{
+			"src": "/evil-bees_192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable any"
+		},
+		{
+			"src": "/evil-bees_512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable any"
+		}
+	],
+	"theme_color": "#FFFFFF",
+	"background_color": "#FFFFFF",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait"
+}

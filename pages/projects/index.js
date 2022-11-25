@@ -19,8 +19,12 @@ export default function Projects() {
 								className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 overflow-hidden"
 								width={650}
 								height={340}
+								sizes="(max-width: 768px) 100vw,
+										(max-width: 1200px) 50vw,
+										30vw"
 								alt="alertit logo"
 								src="/projects/alertit-logo.png"
+								priority={true}
 							/>
 							<div className="bg-white">
 								<h1 className="p-4 pb-0">Alertit</h1>
