@@ -13,7 +13,7 @@ export default function Navigation() {
 				<nav className="flex flex-col max-w-7xl mx-auto">
 					<VscListSelection
 						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6"
-						onClick={() => setIsNavOpen(prev => !prev)}
+						onClick={() => setIsNavOpen((prev) => !prev)}
 					/>
 					<Link href="/" className="lg:hidden self-begin absolute top-0 left-5">
 						<Image
@@ -27,8 +27,9 @@ export default function Navigation() {
 					</Link>
 
 					<div
-						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 pt-0 px-4 sm:px-6 lg:px-8 text-white ${isNavOpen ? "showMenuNav" : "hideMenuNav"
-							}`}
+						className={`flex flex-col justify-start lg:flex-row items-center lg:justify-between lg:flex-wrap pt-0 lg:py-6 lg:pt-6 pt-0 px-4 sm:px-6 lg:px-8 text-white ${
+							isNavOpen ? "showMenuNav" : "hideMenuNav"
+						}`}
 					>
 						<VscChromeClose
 							className={`lg:hidden fill-white self-end w-6 h-6 my-6`}
