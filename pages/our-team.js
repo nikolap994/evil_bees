@@ -44,8 +44,10 @@ export default function OurTeam() {
 											<Image
 												src={member.photo}
 												alt={member.name}
-												height="1000"
-												width="1000"
+												height="300"
+												width="300"
+												className="w-full"
+												loading="lazy"
 											/>
 											<div className="absolute -top-7 flex justify-center h-12 lg:h-16 w-full text-center">
 												<div className="relative flex flex+-col gap-4 items-center mx-5 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
