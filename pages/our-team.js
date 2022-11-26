@@ -19,7 +19,7 @@ export default function OurTeam() {
 								<span className="text-primary mb-2 block text-lg font-semibold">
 									Our Team
 								</span>
-								<h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
+								<h2 className="text-dark mb-6 font-bold text-6xl md:text-[40px]">
 									Meet the Evil Bees
 								</h2>
 								<p className="text-body-color text-base">
