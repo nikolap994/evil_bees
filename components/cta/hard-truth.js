@@ -2,7 +2,7 @@ import Growth from "./growth";
 
 export default function HardTruthCTA() {
 	return (
-		<section className="bg-gray-100">
+		<section className="bg-violet-100">
 			<div className="text-black text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
 				<div className="mx-auto max-w-7xl">
 					<div className="bg-white p-8 md:mx-auto md:text-center">
