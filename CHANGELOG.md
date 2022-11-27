@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - Homepage hero typewriter animation
 - Mobile menu
 - 404 page
+- Projects JSON
 
 ### Remove 
 - Homepage Hero typewriter animation
