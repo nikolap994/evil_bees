@@ -1,3 +1,4 @@
+import AlertItInfo from "../../content/alertit-info.json";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -7,71 +8,36 @@ export default function AlertIt() {
 			<Head>
 				<title>AlertIt</title>
 			</Head>
-			<div className="container m-auto px-6 md:px-12 xl:px-6">
-				<h1 className="z-10 max-w-3xl font-display text-4xl font-medium tracking-tight text-left text-slate-900 sm:text-6xl">
-					Monitoring everything that matters to you.
-				</h1>
-				<br />
-				<h2 className="font-display text-xl tracking-tight text-slate-900 sm:text-3xl">
-					Website observation
-				</h2>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					Know right away if your website is offline! Reliable monitoring saves
-					you money by alerting you before any major problems arise.
-				</p>
-				<br />
-				<h2 className="font-display text-xl tracking-tight text-slate-900 sm:text-3xl">
-					Monitoring pings
-				</h2>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					Utilize one of the instruments that administrators use the most
-					frequently to verify the availability of network devices.
-				</p>
-				<br />
-				<h2 className="font-display text-xl tracking-tight text-slate-900 sm:text-3xl">
-					Port surveillance
-				</h2>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					Is email service still available? What about the crucial database
-					server, for instance? Let&#39;s verify! Track any specified service
-					that is active on any port.
-				</p>
-				<br />
-				<h2 className="font-display text-xl tracking-tight text-slate-900 sm:text-3xl">
-					Keyword monitoring
-				</h2>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					Check the presence of the specific text in the content of the site by
-					crawling it whenever you want.
-				</p>
-				<br />
-				<h2 className="font-display text-xl tracking-tight text-slate-900 sm:text-3xl">
-					Provide updates on incidents
-				</h2>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					To the subscribers of your Status page, send out status updates
-					through email or other services you support.
-				</p>
-				<br />
-				<h2 className="font-display text-xl tracking-tight text-slate-900 sm:text-3xl">
-					Response periods
-				</h2>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					View your response times as a graph to identify performance blips.
-				</p>
-				<p>
-					There are times when things go wrong. Be informed! Even the strongest
-					among us have downtime. However, it&apos;s crucial to be aware of it
-					before clients are impacted!
-				</p>
-				<p className="mt-4 text-lg tracking-tight text-slate-700">
-					Using status pages, you can inform your consumers about incidents. Be
-					open-minded. Customers should be informed of scheduled interruptions.
-					Show them how you are thriving to provide a 100% online service.
-				</p>
-				<br/>
-				<Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://github.com/Evil-Bees/alertit">Visit the Github repository</Link>
-			</div>
+			<section className="bg-gradient-to-b from-indigo-900 to-indigo-200 text-white py-16 md:py-24 lg:py-24 px-8 lg:px-12">
+				<div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 gap-6">
+					<h1 className="self-center text-white max-w-3xl font-display text-4xl font-medium tracking-tight text-left sm:text-6xl">
+						Monitoring everything that matters to you.
+					</h1>
+
+					{Object.entries(AlertItInfo).map(([key, info]) => {
+						{
+							console.log(info.title);
+							return (
+								<div className="mt-16 mb-8">
+									<h2 className="bg-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl">
+										{info.title}
+									</h2>
+									<p className="pl-6 mt-4 text-lg tracking-tight text-slate-900">
+										{info.text}
+									</p>
+								</div>
+							);
+						}
+					})}
+
+					<Link
+						className="w-full col-span-2 text-center w-full  lg:max-w-[300px] text-xl mx-auto text-blue-600 hover:invert visited:text-purple-600"
+						href="https://github.com/Evil-Bees/alertit"
+					>
+						<p className="p-4 bg-white"> Check out the Github repository!</p>
+					</Link>
+				</div>
+			</section>
 		</>
 	);
 }
