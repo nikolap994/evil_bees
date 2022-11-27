@@ -1,13 +1,11 @@
 export default function Growth() {
 	return (
-		<section className="bg-indigo-900 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+		<section className="bg-gradient-to-b from-indigo-900 to-indigo-300 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
 			<div className="max-w-7xl mx-auto p-8 lg:p-0">
 				<h3 className="font-display text-4xl tracking-tight text-center mt-3 mb-12">
 					There are several components that are integral for growth:
 				</h3>
-				<div
-					className="relative z-10 lg:grid lg:grid-cols-2 items-baseline text-center whitespace-pre-wrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:whitespace-normal"
-				>
+				<div className="relative z-10 lg:grid lg:grid-cols-2 items-baseline text-center whitespace-pre-wrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:whitespace-normal">
 					<div className="group flex flex-col gap-y-4 rounded-full px-4 lg:rounded-r-none lg:rounded-l-xl lg:px-5 lg:py-5">
 						<h3 className="text-white p-3 text-2xl">
 							Coming up with Solutions
