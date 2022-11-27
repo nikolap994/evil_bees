@@ -49,37 +49,37 @@ export default function OurTeam() {
 												className="w-full"
 												loading="lazy"
 											/>
-											<div className="absolute -top-7 flex justify-center h-12 lg:h-16 w-full text-center">
-												<div className="relative flex flex+-col gap-4 items-center mx-5 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
-													<Link href={member.github}>
+											<Link href={member.github}>
+												<div className="absolute -top-7 flex justify-center h-12 lg:h-16 w-full text-center">
+													<div className="relative flex flex+-col gap-4 items-center mx-5 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
 														<VscGithubInverted className="h-6 w-6" />
-													</Link>
-													<h3 className="text-dark text-base font-semibold">
-														{member.name}
-													</h3>
-													<p className="text-body-color text-sm">
-														{member.role}
-													</p>
+														<h3 className="text-dark text-base font-semibold">
+															{member.name}
+														</h3>
+														<p className="text-body-color text-sm">
+															{member.role}
+														</p>
 
-													<span className="absolute left-0 bottom-0">
-														<svg
-															width="61"
-															height="30"
-															viewBox="0 0 61 30"
-															fill="none"
-															xmlns="http://www.w3.org/2000/svg"
-														>
-															<circle
-																cx="16"
-																cy="45"
-																r="45"
-																fill="#13C296"
-																fillOpacity="0.11"
-															/>
-														</svg>
-													</span>
+														<span className="absolute left-0 bottom-0">
+															<svg
+																width="61"
+																height="30"
+																viewBox="0 0 61 30"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<circle
+																	cx="16"
+																	cy="45"
+																	r="45"
+																	fill="#13C296"
+																	fillOpacity="0.11"
+																/>
+															</svg>
+														</span>
+													</div>
 												</div>
-											</div>
+											</Link>
 										</div>
 										<div className="py-8 md:w-1/2 px-6 lg:px-12">
 											<p className="text-justify text-sm leading-6">
