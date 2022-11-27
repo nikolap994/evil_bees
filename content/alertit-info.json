@@ -1,7 +1,8 @@
 {
 	"0": {
 		"title": "Website observation",
-		"text": "Know right away if your website is offline! Reliable monitoring saves you money by alerting you before any major problems arise."
+		"text": "Know right away if your website is offline! Reliable monitoring saves you money by alerting you before any major problems arise.",
+		"image": "/projects/alertit-banner.png"
 	},
 	"1": {
 		"title": "Monitoring pings",

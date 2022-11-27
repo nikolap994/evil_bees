@@ -1,6 +1,9 @@
 import AlertItInfo from "../../content/alertit-info.json";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
+
+import BannerImage from "../../public/projects/alertit-banner.png";
 
 export default function AlertIt() {
 	return (
@@ -14,20 +17,23 @@ export default function AlertIt() {
 						Monitoring everything that matters to you.
 					</h1>
 
+					<Image
+						className="mt-10 lg:mt-0"
+						src={BannerImage}
+						alt="Alertit banner"
+					/>
+
 					{Object.entries(AlertItInfo).map(([key, info]) => {
-						{
-							console.log(info.title);
-							return (
-								<div className="mt-16 mb-8">
-									<h2 className="bg-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl">
-										{info.title}
-									</h2>
-									<p className="pl-6 mt-4 text-lg tracking-tight text-slate-900">
-										{info.text}
-									</p>
-								</div>
-							);
-						}
+						return (
+							<div key={key} className="mt-16 mb-8">
+								<h2 className="bg-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl">
+									{info.title}
+								</h2>
+								<p className="pl-6 mt-4 text-lg tracking-tight text-slate-900">
+									{info.text}
+								</p>
+							</div>
+						);
 					})}
 
 					<Link
