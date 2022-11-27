@@ -1,9 +1,9 @@
 export default function StandForCTA() {
 	return (
 		<section className="bg-gradient-to-t from-indigo-900 to-indigo-200 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
-			<div className="mx-auto max-w-7xl p-8">
+			<div className="mx-auto max-w-7xl p-4 md:p-8">
 				<h2 className="font-display mb-8 text-3xl tracking-tight sm:text-4xl">
-					What We Stand For ?
+					What We Stand For
 				</h2>
 				<p className="mt-4 text-lg tracking-tight py-4">
 					We are not a web development organization, nor a marketing

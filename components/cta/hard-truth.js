@@ -5,8 +5,8 @@ export default function HardTruthCTA() {
 		<section className="bg-violet-100">
 			<div className="text-black text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
 				<div className="mx-auto max-w-7xl">
-					<div className="bg-white p-8 md:mx-auto md:text-center">
-						<h2 className="font-display text-5xl tracking-tight mt-16">
+					<div className="bg-white p-4 md:p-8 md:mx-auto md:text-center">
+						<h2 className="font-display text-4xl md:text-5xl tracking-tight mt-16">
 							Hard truth: Videos <span className="font-medium">don&apos;t</span>{" "}
 							teach you how to code.
 						</h2>
@@ -17,7 +17,7 @@ export default function HardTruthCTA() {
 							any actual skills that will help you grow as a developer.
 						</p>
 
-						<h2 className="mt-16 font-display text-5xl tracking-tight">
+						<h2 className="mt-16 font-display text-4xl md:text-5xl tracking-tight">
 							Solution
 						</h2>
 						<p className="mt-8 text-lg tracking-tight mb-16 text-justify lg:text-center max-w-4xl mx-auto">
