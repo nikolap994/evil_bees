@@ -11,7 +11,7 @@ export default function Projects() {
 			<Head>
 				<title>Projects</title>
 			</Head>
-			<section className="py-16 bg-violet-100 py-16 md:py-24 px-8 lg:px-12">
+			<section className="py-16 bg-violet-100 h-screen py-16 md:py-24 px-8 lg:px-12">
 				<div className="max-w-7xl mx-auto ">
 					<div className="pb-8 lg:pb-16 text-center">
 						<h2 className="text-dark mb-6 font-bold text-6xl md:text-[40px]">
