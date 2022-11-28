@@ -37,10 +37,13 @@ export default function AlertIt() {
 					})}
 
 					<Link
-						className="w-full col-span-2 text-center w-full  lg:max-w-[300px] text-xl mx-auto text-blue-600 hover:invert visited:text-purple-600"
+						className="w-full col-span-2 text-center w-full  lg:max-w-[300px] text-xl mx-auto text-blue-600 hover:text-white visited:text-purple-600"
 						href="https://github.com/Evil-Bees/alertit"
 					>
-						<p className="p-4 bg-white"> Check out the Github repository!</p>
+						<p className="p-4 bg-white hover:bg-zinc-700 ">
+							{" "}
+							Check out the Github repository!
+						</p>
 					</Link>
 				</div>
 			</section>
