@@ -11,8 +11,8 @@ export default function Projects() {
 			<Head>
 				<title>Projects</title>
 			</Head>
-			<section className="py-16 bg-violet-100 h-screen py-16 md:py-24 px-8 lg:px-12">
-				<div className="max-w-7xl mx-auto ">
+			<section className="py-16 bg-violet-100 lg:h-screen py-16 md:py-24 px-8 lg:px-12">
+				<div className="max-w-7xl mx-auto">
 					<div className="pb-8 lg:pb-16 text-center">
 						<h2 className="text-dark mb-6 font-bold text-6xl md:text-[40px]">
 							Our Projects
@@ -27,7 +27,7 @@ export default function Projects() {
 							<main key={key}>
 								<div className="relative mx-auto bg-violet-200 flex flex-col lg:flex-row lg:max-h-[450px]">
 									<Image
-										className="w-full lg:w-1/2 lg:object-cover border"
+										className="w-full lg:w-1/2 lg:object-cover border transition-opacity hover:opacity-75"
 										width={2400}
 										height={340}
 										alt="alertit logo"
@@ -42,12 +42,12 @@ export default function Projects() {
 											<p className="text-base">{project.about}</p>
 										</div>
 									</Link>
-									<div className="w-full bg-violet-400 py-8 lg:py-0 flex items-center justify-center gap-5 lg:gap-8 transition-opacity lg:opacity-0 lg:hover:opacity-75 lg:w-1/2 lg:absolute lg:h-full lg:top-0 lg:translate-x-0">
+									<div className="w-full bg-violet-400 py-8 lg:py-0 flex items-center justify-center gap-5 lg:gap-8 transition-opacity lg:opacity-0 lg:hover:opacity-[85%] lg:w-1/2 lg:absolute lg:h-full lg:top-0 lg:translate-x-0">
 										<Link href={`/projects/alertit`}>
-											<VscBook className="h-10 w-10 lg:w-12 lg:h-12" />
+											<VscBook className="h-10 w-10 lg:w-12 lg:h-12 lg:hover:fill-white" />
 										</Link>
 										<Link href={project.github}>
-											<VscGithubInverted className="h-9 w-9 lg:w-12 lg:h-12" />
+											<VscGithubInverted className="h-9 w-9 lg:w-12 lg:h-12 lg:hover:fill-white" />
 										</Link>
 									</div>
 								</div>
