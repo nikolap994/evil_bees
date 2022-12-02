@@ -1,6 +1,13 @@
+import Image from "next/image";
+import Octopus from "../../public/images/117.png";
+
 export default function Growth() {
 	return (
-		<section className="bg-gradient-to-b from-indigo-900 to-indigo-300 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+		<section className="relative bg-gradient-to-b from-indigo-900 to-indigo-300 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+			<Image
+				className="absolute top-0 lg:-top-[70px] left-0 md:left-0 w-[200px] translate-x-full -translate-y-[73px] lg:animate-transform-translate-full"
+				src={Octopus}
+			/>
 			<div className="max-w-7xl mx-auto md:p-8 lg:p-0">
 				<h3 className="font-display text-3xl md:text-4xl tracking-tight text-center mt-3 mb-12">
 					There are several components that are integral for growth:
