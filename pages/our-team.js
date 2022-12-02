@@ -11,7 +11,7 @@ export default function OurTeam() {
 				<title>Meet the Evil Bees</title>
 			</Head>
 
-			<section className="bg-gradient-to-b from-indigo-900 to-indigo-200 text-white py-16 md:py-24 lg:py-24 px-8 lg:px-12">
+			<section className="bg-gradient-to-b from-indigo-900 to-indigo-200 text-white py-16 md:py-24 lg:py-24 px-8 lg:px-12 lg:h-screen">
 				<div className="max-w-7xl mx-auto">
 					<div className="-mx-4 flex flex-wrap">
 						<div className="w-full px-4">
@@ -31,22 +31,20 @@ export default function OurTeam() {
 					</div>
 
 					<div className="-mx-4 justify-center">
-						<div className="mx-auto w-full px-4">
+						<div className="mx-auto w-full px-4 grid gap-2 lg:grid-cols-2 md:grid-cols-1">
 							{Object.entries(Team).map(([key, member]) => {
-								const flexDirection =
-									key % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse";
 								return (
 									<div
 										key={key}
-										className={`border rounded-lg border-gray-900 bg-gray-900 mb-16 w-full flex flex-col md:items-center ${flexDirection}`}
+										className="border rounded-lg border-gray-900 bg-gray-900 mb-16 "
 									>
-										<div className="relative rounded-lg md:w-1/2">
+										<div className="relative lg:float-left">
 											<Image
 												src={member.photo}
 												alt={member.name}
 												height="300"
 												width="300"
-												className="w-full"
+												className="rounded-full lg:mr-1 object-center m-auto mt-10"
 												loading="lazy"
 											/>
 											<Link href={member.github}>
@@ -81,7 +79,7 @@ export default function OurTeam() {
 												</div>
 											</Link>
 										</div>
-										<div className="py-8 md:w-1/2 px-6 lg:px-12">
+										<div className="py-8 px-6 md:px-12">
 											<p className="text-justify text-sm leading-6">
 												{member.about}
 											</p>
