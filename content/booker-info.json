@@ -1,6 +1,6 @@
 {
 	"0": {
-		"title": "Online Appointment scheduling with calendar integration for any buisness",
+		"title": "Online Appointment scheduling",
 		"text": "Know right away if your website is offline! Reliable monitoring saves you money by alerting you before any major problems arise.",
 		"image": "/projects/booker-banner.png"
 	},
@@ -13,7 +13,7 @@
 		"text": "Virtual Meeting or just notification, we provide integration with Google Calendar."
 	},
 	"3": {
-		"title": "Real time notifations",
-		"text": "You want to get notified when new booking has occcured, we will send you an email, push notification or you can use our custom webhooks to link it with your service."
+		"title": "Real-time notifications",
+		"text": "You want to get notified when new booking has ocurred, we will send you an email, push notification or you can use our custom webhooks to link it with your service."
 	}
 }
