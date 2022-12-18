@@ -12,17 +12,26 @@ export default function AlertIt() {
 				<title>AlertIt</title>
 			</Head>
 			<section className="bg-gradient-to-b from-indigo-900 to-indigo-200 text-white py-16 md:py-24 lg:py-24 px-8 lg:px-12">
-				<div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 gap-6">
-					<h1 className="self-center text-white max-w-3xl font-display text-4xl font-medium tracking-tight text-left sm:text-6xl">
-						Monitoring everything that matters to you.
-					</h1>
-
+				<div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 gap-6 gap-x-16">
+					<div className="flex flex-col gap-8 justify-between">
+						<h1 className="self-center text-white font-display text-4xl font-medium tracking-tight text-left sm:text-6xl">
+							Monitoring everything that matters to you.
+						</h1>
+						<Link
+							className="w-full col-span-2 text-center w-full lg:max-w-[300px] text-xl text-blue-600 hover:text-white visited:text-purple-600"
+							href="https://github.com/Evil-Bees/Alertit"
+						>
+							<p className="p-4 bg-white hover:bg-zinc-700 ">
+								{" "}
+								Check out the Github repository!
+							</p>
+						</Link>
+					</div>
 					<Image
 						className="mt-10 lg:mt-0"
 						src={BannerImage}
 						alt="Alertit banner"
 					/>
-
 					{Object.entries(AlertItInfo).map(([key, info]) => {
 						return (
 							<div key={key} className="mt-16 mb-8">
@@ -35,16 +44,6 @@ export default function AlertIt() {
 							</div>
 						);
 					})}
-
-					<Link
-						className="w-full col-span-2 text-center w-full  lg:max-w-[300px] text-xl mx-auto text-blue-600 hover:text-white visited:text-purple-600"
-						href="https://github.com/Evil-Bees/Alertit"
-					>
-						<p className="p-4 bg-white hover:bg-zinc-700 ">
-							{" "}
-							Check out the Github repository!
-						</p>
-					</Link>
 				</div>
 			</section>
 		</>
