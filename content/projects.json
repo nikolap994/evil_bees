@@ -1,8 +1,16 @@
 {
 	"0": {
 		"name": "Alertit",
-		"github": "https://github.com/Evil-Bees/alertit",
+		"github": "https://github.com/Evil-Bees/Alertit",
 		"about": "Know right away if your website is offline! Reliable monitoring saves your money, reputation and clients — by alerting you before any major problems arise.",
-		"photo": "/projects/alertit-banner.png"
+		"photo": "/projects/alertit-banner.png",
+		"url": "/projects/alertit"
+	},
+	"1": {
+		"name": "Booker",
+		"github": "https://github.com/Evil-Bees/Booker",
+		"about": "Online Appointment scheduling with calendar integration for any buisness.",
+		"photo": "/projects/booker-banner.png",
+		"url": "/projects/booker"
 	}
 }
