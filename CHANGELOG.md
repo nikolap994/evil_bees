@@ -22,3 +22,4 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Split index into components
+- Update Layout background to dark gradient
