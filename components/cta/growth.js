@@ -1,6 +1,6 @@
 export default function Growth() {
 	return (
-		<section className="bg-gradient-to-b from-indigo-900 to-indigo-300 text-white py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+		<section className="py-16 md:py-24 lg:py-32 px-8 lg:px-12">
 			<div className="max-w-7xl mx-auto md:p-8 lg:p-0">
 				<h3 className="font-display text-3xl md:text-4xl tracking-tight text-center mt-3 mb-12">
 					There are several components that are integral for growth:
