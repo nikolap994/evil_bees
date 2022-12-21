@@ -11,7 +11,7 @@ export default function Projects() {
 			<Head>
 				<title>Projects</title>
 			</Head>
-			<section className="py-16 bg-violet-50 py-16 md:py-24 px-8 lg:px-12">
+			<section className="py-16 text-white py-16 md:py-24 px-8 lg:px-12">
 				<div className="max-w-7xl mx-auto">
 					<div className="pb-8 lg:pb-16 text-center">
 						<h2 className="text-dark mb-6 font-bold text-6xl md:text-[40px]">
@@ -28,7 +28,7 @@ export default function Projects() {
 							return (
 								<main key={key}>
 									<div
-										className={`relative mx-auto bg-gray-200 flex lg:max-h-[450px] ${
+										className={`relative mx-auto bg-white text-black flex lg:max-h-[450px] ${
 											key % 2
 												? "flex-col lg:flex-row"
 												: "flex-col lg:flex-row-reverse"
