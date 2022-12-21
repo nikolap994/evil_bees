@@ -9,7 +9,7 @@ export default function Navigation() {
 
 	return (
 		<>
-			<header className="bg-slate-900">
+			<header className="bg-slate-900 border-b border-white">
 				<nav className="flex flex-col max-w-7xl mx-auto">
 					<VscListSelection
 						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6"
