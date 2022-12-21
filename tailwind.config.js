@@ -16,6 +16,8 @@ module.exports = {
 			colors: {
 				'black-opacity': 'rgba(0, 0, 0, 0.54)',
 				'zinc-800-opacity': 'rgba(39, 39, 42, 0.54)',
+				'github-black': '#0d1117',
+				'discord-purple': '#5865f2',
 			}
 		},
 	},
