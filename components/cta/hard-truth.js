@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HardTruthCTA() {
 	return (
 		<section className="border-b border-white">
-			<div className="py-16 px-8 md:py-24 lg:py-32 mx-auto max-w-7xl">
+			<div className="py-16 px-8 md:py-24 mx-auto max-w-7xl">
 				<div className="py-8 px-4 md:p-8 px-12 md:mx-auto md:text-center max-w-4xl text-">
 					<h2 className="text-4xl md:text-5xl tracking-tight">
 						Hard truth: Videos <span className="font-medium">don&apos;t</span>{" "}
@@ -26,7 +26,7 @@ export default function HardTruthCTA() {
 						a developer.
 					</p>
 					<Link
-						className="bg-discord-purple py-3 px-10 text-white mt-6"
+						className="bg-discord-purple py-3 px-10 text-white mt-6 rounded-md hover:bg-white hover:text-slate-900"
 						href="https://github.com/Evil-Bees"
 					>
 						Join us!
