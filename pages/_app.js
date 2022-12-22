@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps: pageProps }) {
 				<meta name="description" content="Evil Bees is all about project-based learning."></meta>
 				<meta name="keywords" content="Community, Evil Bees"></meta>
 			</Head>
-			<GoogleAnalytics />
+			{process.env.NODE_ENV != 'development' && <GoogleAnalytics />}
 			<Component {...pageProps} />
 		</Layout>
 	);
