@@ -5,13 +5,13 @@ import ButtonPurple from "../ButtonPurple";
 
 function Contribute() {
 	return (
-		<section className="py-16 lg:py-24 px-8 lg:px-12 border-b border-white">
+		<section className="py-16 lg:py-24 px-8 lg:px-12 border-b border-white text-lg">
 			<div className="max-w-2xl mx-auto md:p-y8 lg:p-0">
 				<h2 className="font-display text-4xl md:text-5xl tracking-tight text-center mb-12">
 					Start Contributing!
 				</h2>
 				<div>
-					<p className="mb-4 text-justify mt-8 lg:mt-2 text-md">
+					<p className="mb-4 text-justify mt-8 lg:mt-2">
 						Eager to get to work?
 					</p>
 					<p className="text-justify">
@@ -32,7 +32,7 @@ function Contribute() {
 					</ul>
 				</div>
 				<div className="md:px-4">
-					<h3 className="text-3xl text-left">How We Do It</h3>
+					<h3 className="text-3xl text-left mb-7">How We Do It</h3>
 					<p className="text-justify my-8 lg:mt-2 lg:mb-0 text-md">
 						All of the projects and ideas we work on are created using the
 						<span className="font-bold"> latest technologies</span>, and we look
