@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - Projects JSON
 - Contribute component to Homepage
 - ButtonGit component
+- Project Short component
 
 ### Remove 
 - Homepage Hero typewriter animation
