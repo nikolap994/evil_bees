@@ -23,46 +23,45 @@ export default function Projects() {
 						</p>
 					</div>
 					{Object.entries(OurProjects)
-						.reverse()
-						.map(([key, project]) => {
-							return (
-								<main key={key}>
-									<div
-										className={`relative mx-auto bg-white text-black flex lg:max-h-[450px] ${
-											key % 2
-												? "flex-col lg:flex-row"
-												: "flex-col lg:flex-row-reverse"
-										}`}
-									>
-										<Image
-											className="w-full lg:w-1/2 lg:object-cover border transition-opacity hover:opacity-75"
-											width={2400}
-											height={340}
-											alt={project.name}
-											src={project.photo}
-											priority={true}
-										/>
-										<Link className="lg:w-1/2 flex-col" href={project.url}>
-											<div className="lg:flex flex-col h-full justify-center text-xl p-12">
-												<div className="flex gap-4 items-center mb-6">
-													<h1 className="text-4xl">{project.name}</h1>
-												</div>
-												<p className="text-base">{project.about}</p>
+					.map(([key, project]) => {
+						return (
+							<main key={key}>
+								<div
+									className={`relative mx-auto bg-white text-black flex lg:max-h-[450px] ${
+										key % 2
+											? "flex-col lg:flex-row"
+											: "flex-col lg:flex-row-reverse"
+									}`}
+								>
+									<Image
+										className="w-full lg:w-1/2 lg:object-cover border transition-opacity hover:opacity-75"
+										width={2400}
+										height={340}
+										alt={project.name}
+										src={project.photo}
+										priority={true}
+									/>
+									<Link className="lg:w-1/2 flex-col" href={project.url}>
+										<div className="lg:flex flex-col h-full justify-center text-xl p-12">
+											<div className="flex gap-4 items-center mb-6">
+												<h1 className="text-4xl">{project.name}</h1>
 											</div>
-										</Link>
-										<div className="w-full bg-gray-300 py-8 lg:py-0 flex items-center justify-center gap-5 lg:gap-8 transition-opacity lg:opacity-0 lg:hover:opacity-[85%] lg:w-1/2 lg:absolute lg:h-full lg:top-0 lg:translate-x-0">
-											<Link href={project.url}>
-												<VscBook className="h-10 w-10 lg:w-12 lg:h-12 lg:hover:fill-white" />
-											</Link>
-											<Link href={project.github}>
-												<VscGithubInverted className="h-9 w-9 lg:w-12 lg:h-12 lg:hover:fill-white" />
-											</Link>
+											<p className="text-base">{project.about}</p>
 										</div>
+									</Link>
+									<div className="w-full bg-gray-300 py-8 lg:py-0 flex items-center justify-center gap-5 lg:gap-8 transition-opacity lg:opacity-0 lg:hover:opacity-[85%] lg:w-1/2 lg:absolute lg:h-full lg:top-0 lg:translate-x-0">
+										<Link href={project.url}>
+											<VscBook className="h-10 w-10 lg:w-12 lg:h-12 lg:hover:fill-white" />
+										</Link>
+										<Link href={project.github}>
+											<VscGithubInverted className="h-9 w-9 lg:w-12 lg:h-12 lg:hover:fill-white" />
+										</Link>
 									</div>
-									<br />
-								</main>
-							);
-						})}
+								</div>
+								<br />
+							</main>
+						);
+					})}
 				</div>
 			</section>
 		</>
