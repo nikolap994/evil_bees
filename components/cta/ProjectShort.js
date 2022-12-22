@@ -10,9 +10,9 @@ function ProjectShort() {
 				return (
 					<section className="mx-auto xl:max-w-7xl" key={key}>
 						<div className="flex flex-col md:flex-row md:items-center gap-4 lg:gap-10 my-8 xl:my-16">
-							<div>
+							<div className="md:w-full">
 								<Image
-									className="rounded-lg lg:w-[1000px]"
+									className="rounded-lg lg:w-[1000px] md:h-[220px] lg:h-auto object-cover"
 									width="470"
 									height="200"
 									src={project.photo}
@@ -20,7 +20,7 @@ function ProjectShort() {
 								/>
 							</div>
 							<div className="flex flex-col justify-around lg:justify-center lg:gap-10 pb-4 lg:py-12 gap-4 w-full md:max-w-[400px]">
-								<h3 className="text-3xl ">{project.name}</h3>
+								<h3 className="text-3xl mt-4 mb-3 md:my-0">{project.name}</h3>
 								<ButtonGit
 									linkTo={`https://github.com/Evil-Bees/${project.name}/issues`}
 									text="Check out issues on"
