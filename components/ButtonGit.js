@@ -1,0 +1,16 @@
+import Link from "next/link";
+import { VscGithubInverted } from "react-icons/vsc";
+
+function ButtonGit({ text, linkTo }) {
+	return (
+		<Link
+			className="flex items-center gap-4 bg-github-black text-white justify-center py-4 md:w-[200px] mx-auto hover:animate-pulse"
+			href={linkTo}
+		>
+			{text}
+			<VscGithubInverted className="w-6 h-6" />{" "}
+		</Link>
+	);
+}
+
+export default ButtonGit;
