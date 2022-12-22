@@ -12,7 +12,7 @@ export default function Navigation() {
 			<header className="bg-slate-900 border-b border-white">
 				<nav className="flex flex-col max-w-7xl mx-auto">
 					<VscListSelection
-						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6"
+						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6 hover:cursor-pointer"
 						onClick={() => setIsNavOpen((prev) => !prev)}
 					/>
 					<Link href="/" className="lg:hidden self-begin absolute top-0 left-5">
@@ -32,7 +32,7 @@ export default function Navigation() {
 						}`}
 					>
 						<VscChromeClose
-							className={`lg:hidden fill-white self-end w-6 h-6 my-6`}
+							className={`lg:hidden fill-white self-end w-7 h-7 mt-10 mr-10 hover:cursor-pointer `}
 							onClick={() => setIsNavOpen(false)}
 						/>
 						<div className="self-center lg:self-start flex items-center flex-shrink-0 text-white mr-6">
