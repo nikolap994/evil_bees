@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { VscGithubInverted } from "react-icons/vsc";
-import { FaDiscord } from "react-icons/fa";
+
+import ButtonGit from "../ButtonGit";
+import ButtonPurple from "../ButtonPurple";
 
 function Contribute() {
 	return (
@@ -20,20 +21,13 @@ function Contribute() {
 					</p>
 					<ul className="flex flex-col md:flex-row justify-center gap-6 mt-10 mb-12">
 						<li>
-							<Link
-								className="flex items-center gap-4 bg-github-black text-white justify-center py-4 md:w-[200px] mx-auto hover:animate-pulse"
-								href="https://github.com/Evil-Bees"
-							>
-								GitHub <VscGithubInverted className="w-6 h-6" />{" "}
-							</Link>
+							<ButtonGit linkTo="https://github.com/Evil-Bees" text="GitHub" />
 						</li>
 						<li>
-							<Link
-								className="flex items-center gap-4 bg-discord-purple text-white justify-center py-4 md:w-[200px] mx-auto hover:animate-pulse"
-								href="https://discord.gg/rvxGNrFhNz"
-							>
-								Discord <FaDiscord className="w-6 h-6" />
-							</Link>
+							<ButtonPurple
+								linkTo="https://discord.gg/rvxGNrFhNz"
+								text="Discord"
+							/>
 						</li>
 					</ul>
 				</div>
