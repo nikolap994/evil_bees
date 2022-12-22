@@ -6,6 +6,7 @@ import StandForCTA from "../components/cta/what-we-stand-for";
 import SolvingProblems from "../components/cta/solving-problems";
 import HomepageHero from "../components/hero/homepage-hero";
 import Contribute from "../components/cta/Contribute";
+import ProjectsShort from "../components/cta/ProjectsShort";
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 				<HomepageHero />
 				<HardTruthCTA />
 				<Contribute />
+				<ProjectsShort />
 				<OpenSourceFAQ />
 				<StandForCTA />
 				<SolvingProblems />
