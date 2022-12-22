@@ -18,7 +18,7 @@ export default function CodeOfConduct() {
 							<h2 className="font-display text-2xl font-medium tracking-tight text-slate-900 mb-2">
 								INTRODUCTION
 							</h2>
-							<p>
+							<p className="text-black mx-auto text-lg">
 								This code of conduct applies to all spaces managed by the Evil
 								Bees, including but not limited to: all public and private
 								mailing lists, issue trackers, wikis, blogs, Twitter; as well as
