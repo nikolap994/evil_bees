@@ -4,6 +4,8 @@ import Link from "next/link";
 import Head from "next/head";
 import { VscGithubInverted } from "react-icons/vsc";
 
+import StandForCTA from "../components/cta/what-we-stand-for";
+
 export default function OurTeam() {
 	return (
 		<>
@@ -90,7 +92,6 @@ export default function OurTeam() {
 						</div>
 					</div>
 				</div>
-
 				<div className="mt-7">
 					<h2 className="text-5xl text-center mb-16">Join us now!</h2>
 					<iframe
@@ -103,6 +104,7 @@ export default function OurTeam() {
 						sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
 					></iframe>
 				</div>
+				<StandForCTA />
 			</section>
 		</>
 	);
