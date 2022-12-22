@@ -9,7 +9,7 @@ function ProjectShort() {
 			{Object.entries(OurProjects).map(([key, project]) => {
 				return (
 					<section className="mx-auto xl:max-w-7xl" key={key}>
-						<div className="flex flex-col lg:flex-row md:items-center gap-4 lg:gap-10 my-8 xl:my-16">
+						<div className="flex flex-col md:flex-row md:items-center gap-4 lg:gap-10 my-8 xl:my-16">
 							<div>
 								<Image
 									className="rounded-lg lg:w-[1000px]"
