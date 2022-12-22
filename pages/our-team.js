@@ -90,6 +90,19 @@ export default function OurTeam() {
 						</div>
 					</div>
 				</div>
+
+				<div className="mt-7">
+					<h2 className="text-5xl text-center mb-16">Join us now!</h2>
+					<iframe
+						className="w-full lg:w-1/2 mx-auto"
+						src="https://discord.com/widget?id=1033387274005663834&theme=dark"
+						width="350"
+						height="500"
+						allowtransparency="true"
+						frameborder="0"
+						sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+					></iframe>
+				</div>
 			</section>
 		</>
 	);
