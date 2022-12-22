@@ -2,7 +2,6 @@ import Head from "next/head";
 
 import OpenSourceFAQ from "../components/cta/open-source-faq";
 import HardTruthCTA from "../components/cta/hard-truth";
-import StandForCTA from "../components/cta/what-we-stand-for";
 import SolvingProblems from "../components/cta/solving-problems";
 import HomepageHero from "../components/hero/homepage-hero";
 import Contribute from "../components/cta/Contribute";
@@ -20,7 +19,6 @@ export default function Home() {
 				<Contribute />
 				<ProjectsShort />
 				<OpenSourceFAQ />
-				<StandForCTA />
 				<SolvingProblems />
 			</section>
 		</>
