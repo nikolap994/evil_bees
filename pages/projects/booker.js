@@ -11,7 +11,7 @@ export default function Booker() {
 			<Head>
 				<title>Booker</title>
 			</Head>
-			<section className="bg-gradient-to-b bg-yellow-50 text-stone-700 py-16 md:py-24 lg:py-24 px-8 lg:px-12">
+			<section className="py-16 md:py-24 lg:py-24 px-8 lg:px-12">
 				<div className="max-w-7xl mx-auto">
 					<div className="flex flex-col-reverse xl:flex-row-reverse gap-10 lg:gap-16 mb-12">
 						<div className="flex flex-col gap-8 lg:gap-10 justify-between">
