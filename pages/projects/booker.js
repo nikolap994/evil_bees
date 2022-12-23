@@ -15,7 +15,7 @@ export default function Booker() {
 				<div className="max-w-7xl mx-auto">
 					<div className="flex flex-col-reverse xl:flex-row-reverse gap-10 lg:gap-16 mb-12">
 						<div className="flex flex-col gap-8 lg:gap-10 justify-between">
-							<h1 className="text-stone-800 max-w-6xl text-left font-display text-5xl font-medium tracking-tight text-left">
+							<h1 className="text-white max-w-6xl text-left font-display text-5xl font-medium tracking-tight text-left">
 								Online Appointment scheduling with calendar integration for any
 								business.
 							</h1>
@@ -41,10 +41,10 @@ export default function Booker() {
 						{Object.entries(BookerInfo).map(([key, info]) => {
 							return (
 								<div key={key} className="mt-16 mb-8 max-w-sm">
-									<h2 className="border-b border-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl">
+									<h2 className="bg-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl text-white">
 										{info.title}
 									</h2>
-									<p className="pl-6 mt-4 text-lg tracking-tight text-slate-900">
+									<p className="pl-6 mt-4 text-lg tracking-tight text-white">
 										{info.text}
 									</p>
 								</div>
