@@ -9,13 +9,13 @@ export default function CodeOfConduct() {
 			</Head>
 			<section className="mt-0 pt-12">
 				<div className="m-auto text-left">
-					<h1 className="text-white mt-12 mb-20 text-center font-display text-5xl font-medium tracking-tight text-slate-900">
+					<h1 className="text-white mt-12 mb-20 text-center font-display text-5xl font-medium tracking-tight text-white">
 						CODE OF CONDUCT
 					</h1>
 
 					<div className="p-8 md:px-12">
 						<div className="max-w-7xl mx-auto">
-							<h2 className="font-display text-2xl font-medium tracking-tight text-slate-900 mb-2 text-white">
+							<h2 className="font-display text-2xl font-medium tracking-tight mb-2 text-white">
 								INTRODUCTION
 							</h2>
 							<p className="mx-auto text-lg text-white">
