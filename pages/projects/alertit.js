@@ -35,10 +35,10 @@ export default function AlertIt() {
 					{Object.entries(AlertItInfo).map(([key, info]) => {
 						return (
 							<div key={key} className="mt-16 mb-8">
-								<h2 className="bg-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl">
+								<h2 className="bg-zinc-700 p-4 font-display text-xl tracking-tight sm:text-3xl text-white">
 									{info.title}
 								</h2>
-								<p className="pl-6 mt-4 text-lg tracking-tight text-slate-900 text-white">
+								<p className="pl-6 mt-4 text-lg tracking-tight text-white">
 									{info.text}
 								</p>
 							</div>
