@@ -1,6 +1,6 @@
 export default function StandForCTA() {
 	return (
-		<section className="text-slate-800 my-16 md:mt-24 px-8 lg:px-12 border-t border-white text-white">
+		<section className="text-slate-800 my-16 md:mt-24 px-8 lg:px-12 text-white">
 			<div className="mx-auto max-w-7xl p-4 md:p-8">
 				<h2 className="font-display mb-8 text-3xl tracking-tight sm:text-4xl text-white">
 					What We Stand For
