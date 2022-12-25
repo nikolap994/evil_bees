@@ -18,27 +18,27 @@ export default function Footer() {
 					</p>
 					<div className="mt-3 flex justify-center md:justify-between gap-y-4 gap-x-8 items-center">
 						<div className="flex gap-x-6">
-							<Link href="https://github.com/Evil-Bees">
+							<Link href="https://github.com/Evil-Bees" target="_blank">
 								<FaGithub className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://discord.gg/rvxGNrFhNz">
+							<Link href="https://discord.gg/rvxGNrFhNz" target="_blank">
 								<FaDiscord className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://www.linkedin.com/company/evil-bees/">
+							<Link href="https://www.linkedin.com/company/evil-bees/" target="_blank">
 								<FaLinkedinIn className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://www.instagram.com/evilbeesdev/">
+							<Link href="https://www.instagram.com/evilbeesdev/" target="_blank">
 								<FaInstagram className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://www.youtube.com/@evilbees">
+							<Link href="https://www.youtube.com/@evilbees" target="_blank">
 								<FaYoutube className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
