@@ -1,5 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
+import {
+	FaGithub,
+	FaLinkedinIn,
+	FaInstagram,
+	FaYoutube,
+	FaDiscord,
+} from "react-icons/fa";
 
 export default function Footer() {
 	return (
@@ -11,21 +17,29 @@ export default function Footer() {
 						you every step of your journey.
 					</p>
 					<div className="mt-3 flex justify-center md:justify-between gap-y-4 gap-x-8 items-center">
-						<div className="flex text-sm text-slate-500 sm:mt-0">
-							<Link href="/">
-								<Image
-									priority={true}
-									width="80"
-									height="50"
-									alt="evil-bees"
-									src="/evil-bees.png"
-								/>
-							</Link>
-						</div>
-
 						<div className="flex gap-x-6">
 							<Link href="https://github.com/Evil-Bees">
-								<Image width="50" height="50" alt="github" src="/github.png" />
+								<FaGithub className="text-white w-6 h-6 hover:animate-pulse" />
+							</Link>
+						</div>
+						<div className="flex gap-x-6">
+							<Link href="https://discord.gg/rvxGNrFhNz">
+								<FaDiscord className="text-white w-6 h-6 hover:animate-pulse" />
+							</Link>
+						</div>
+						<div className="flex gap-x-6">
+							<Link href="https://www.linkedin.com/company/evil-bees/">
+								<FaLinkedinIn className="text-white w-6 h-6 hover:animate-pulse" />
+							</Link>
+						</div>
+						<div className="flex gap-x-6">
+							<Link href="https://www.instagram.com/evilbeesdev/">
+								<FaInstagram className="text-white w-6 h-6 hover:animate-pulse" />
+							</Link>
+						</div>
+						<div className="flex gap-x-6">
+							<Link href="https://www.youtube.com/@evilbees">
+								<FaYoutube className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 					</div>
