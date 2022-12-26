@@ -12,6 +12,11 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Evil Bees</title>
+				<meta property="og:image" content="https://evilbees.com/images/growth-2.png"/>
+				<meta property="og:title" content="Evil Bees"/>
+				<meta property="og:description" content="We create open source projects that everyone is welcome to contribute to. This way, you'll be able to learn the skills you need to become a developer."/>
+				<meta property="og:image:width" content="1200"/>
+				<meta property="og:image:height" content="630"/>
 			</Head>
 			<section>
 				<HomepageHero />
