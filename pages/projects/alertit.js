@@ -19,6 +19,7 @@ export default function AlertIt() {
 						</h1>
 						<Link
 							className="w-full col-span-2 text-center w-full lg:max-w-[300px] text-xl text-blue-600 hover:text-white visited:text-purple-600"
+							target="_blank"
 							href="https://github.com/Evil-Bees/Alertit"
 						>
 							<p className="p-4 bg-white hover:bg-zinc-700 ">

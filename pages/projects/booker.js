@@ -22,6 +22,7 @@ export default function Booker() {
 
 							<Link
 								className="text-center lg:max-w-[300px] text-xl hover:text-white visited:text-zinc-900"
+								target="_blank"
 								href="https://github.com/Evil-Bees/Booker"
 							>
 								<p className="bg-amber-200 p-4 bg-white hover:bg-amber-400 lg:max-w-[300px]">

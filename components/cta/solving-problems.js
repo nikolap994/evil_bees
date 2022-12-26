@@ -1,6 +1,6 @@
 export default function SolvingProblems() {
 	return (
-		<section className="py-16 md:py-24 lg:py-32 px-8 lg:px-12">
+		<section className="md:py-24 px-8 lg:px-12">
 			<div className="mx-auto max-w-7xl p-4 md:p-8">
 				<div>
 					<h2 className="font-display mb-12 tracking-tight text-4xl">
