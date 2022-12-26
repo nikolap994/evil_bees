@@ -51,7 +51,7 @@ export default function OurTeam() {
 											/>
 											<Link href={member.github}>
 												<div className="absolute -top-7 flex justify-center h-12 lg:h-16 w-full text-center">
-													<div className="relative flex flex+-col gap-4 items-center mx-5 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
+													<div className="relative flex flex+-col gap-4 items-center mx-8 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
 														<VscGithubInverted className="h-6 w-6" />
 														<h3 className="text-dark text-base font-semibold">
 															{member.name}
