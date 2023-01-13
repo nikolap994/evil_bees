@@ -5,7 +5,8 @@ import {
 	FaInstagram,
 	FaYoutube,
 	FaDiscord,
-	FaTiktok
+	FaTiktok,
+	FaFacebook
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -46,6 +47,11 @@ export default function Footer() {
 						<div className="flex gap-x-6">
 							<Link href="https://tiktok.com/@evilbeesdev" target="_blank">
 								<FaTiktok className="text-white w-6 h-6 hover:animate-pulse" />
+							</Link>
+						</div>
+						<div className="flex gap-x-6">
+							<Link href="https://www.facebook.com/people/Evil-Bees/100088394168553/" target="_blank">
+								<FaFacebook className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 					</div>
