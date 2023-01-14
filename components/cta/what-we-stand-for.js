@@ -1,11 +1,11 @@
 export default function StandForCTA() {
 	return (
-		<section className="text-slate-800 my-16 md:mt-24 md:mb-4 lg:py-32 px-8 lg:px-12 border-t border-b border-white">
+		<section className="text-slate-800 px-8 lg:px-12 text-white">
 			<div className="mx-auto max-w-7xl p-4 md:p-8">
-				<h2 className="font-display mb-8 text-3xl tracking-tight sm:text-4xl">
+				<h2 className="font-display mb-8 text-3xl tracking-tight sm:text-4xl text-white">
 					What We Stand For
 				</h2>
-				<p className="mt-4 text-lg tracking-tight py-4">
+				<p className="mt-4 text-lg tracking-tight py-4 text-white">
 					We are not a web development organization, nor a marketing
 					organization. We are a group of like-minded individuals who are
 					unified by a single idea —{" "}

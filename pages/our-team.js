@@ -13,7 +13,7 @@ export default function OurTeam() {
 				<title>Meet the Evil Bees</title>
 			</Head>
 
-			<section className="bg-gradient-to-b from-indigo-900 to-indigo-200 text-white py-16 md:py-24 lg:py-24 px-8 lg:px-12 lg:h-screen">
+			<section className="text-white py-16 md:py-24 lg:py-24 px-8 lg:px-12 lg:h-screen">
 				<div className="max-w-7xl mx-auto">
 					<div className="-mx-4 flex flex-wrap">
 						<div className="w-full px-4">
@@ -51,7 +51,7 @@ export default function OurTeam() {
 											/>
 											<Link href={member.github}>
 												<div className="absolute -top-7 flex justify-center h-12 lg:h-16 w-full text-center">
-													<div className="relative flex flex+-col gap-4 items-center mx-5 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
+													<div className="relative flex flex+-col gap-4 items-center mx-6 overflow-hidden rounded-lg bg-gray-900 py-5 px-7">
 														<VscGithubInverted className="h-6 w-6" />
 														<h3 className="text-dark text-base font-semibold">
 															{member.name}
@@ -91,18 +91,6 @@ export default function OurTeam() {
 							})}
 						</div>
 					</div>
-				</div>
-				<div className="mt-7">
-					<h2 className="text-5xl text-center mb-16">Join us now!</h2>
-					<iframe
-						className="w-full lg:w-1/2 mx-auto"
-						src="https://discord.com/widget?id=1033387274005663834&theme=dark"
-						width="350"
-						height="500"
-						allowtransparency="true"
-						frameborder="0"
-						sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-					></iframe>
 				</div>
 				<StandForCTA />
 			</section>

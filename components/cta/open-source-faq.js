@@ -1,6 +1,6 @@
 export default function OpenSourceFAQ() {
 	return (
-		<section className="py-16 md:py-24 lg:py-32 px-8 lg:px-12 border-b border-white">
+		<section className="py-16 px-8 lg:px-12">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<h2 className="font-display mb-12 text-4xl tracking-tight">
 					Why Open Source?

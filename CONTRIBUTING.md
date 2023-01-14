@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Contributing to AlertIt
+# Contributing to Evil Bees
 
 First off, thanks for taking the time to contribute! ❤️
 
@@ -28,21 +28,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [Forking](#forking)
 - [Contributions](#contributions)
 - [Code of Conduct](#code-of-conduct)
-
-<!--
-You might want to create a separate issue tag for questions and include it in this description. People should then tag their issues accordingly.
-
-Depending on how large the project is, you may want to outsource the questioning, e.g. to Stack Overflow or Gitter. You may add additional contact and information possibilities:
-- IRC
-- Slack
-- Gitter
-- Stack Overflow tag
-- Blog
-- FAQ
-- Roadmap
-- E-Mail List
-- Forum
--->
 
 <!-- omit in toc -->
 ## Style Guide

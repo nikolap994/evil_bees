@@ -7,18 +7,18 @@ export default function CodeOfConduct() {
 			<Head>
 				<title>Code Of Conduct</title>
 			</Head>
-			<section className="bg-slate-100 mt-0 pt-12">
+			<section className="mt-0 pt-12">
 				<div className="m-auto text-left">
-					<h1 className="mt-12 mb-20 text-center font-display text-5xl font-medium tracking-tight text-slate-900">
+					<h1 className="text-white mt-12 mb-20 text-center font-display text-5xl font-medium tracking-tight text-white">
 						CODE OF CONDUCT
 					</h1>
 
-					<div className="bg-slate-200 p-8 md:px-12">
+					<div className="p-8 md:px-12">
 						<div className="max-w-7xl mx-auto">
-							<h2 className="font-display text-2xl font-medium tracking-tight text-slate-900 mb-2">
+							<h2 className="font-display text-2xl font-medium tracking-tight mb-2 text-white">
 								INTRODUCTION
 							</h2>
-							<p className="text-black mx-auto text-lg">
+							<p className="mx-auto text-lg text-white">
 								This code of conduct applies to all spaces managed by the Evil
 								Bees, including but not limited to: all public and private
 								mailing lists, issue trackers, wikis, blogs, Twitter; as well as
@@ -39,8 +39,8 @@ export default function CodeOfConduct() {
 						</div>
 					</div>
 
-					<div className="bg-slate-300 p-8 md:px-12 text-slate-900 text-lg font-display tracking-tight">
-						<div className="max-w-7xl mx-auto">
+					<div className="p-8 md:px-12 text-slate-900 text-lg font-display tracking-tight">
+						<div className="max-w-7xl mx-auto text-white">
 							<h2 className="text-2xl mb-2">SPECIFIC GUIDELINES</h2>
 							<p className="font-medium text-xl font-bold tracking-tight py-4">
 								We strive to:
@@ -159,7 +159,7 @@ export default function CodeOfConduct() {
 					</div>
 
 					<div className="md:flex">
-						<div className="bg-slate-400 p-8 md:px-12">
+						<div className="p-8 md:px-12">
 							<div className="max-w-7xl mx-auto text-lg">
 								<h2 className="font-display text-2xl font-medium tracking-tight mt-8 mb-2">
 									DIVERSITY STATEMENT
@@ -186,7 +186,7 @@ export default function CodeOfConduct() {
 							</div>
 						</div>
 
-						<div className="p-8 md:px-12 bg-slate-500">
+						<div className="p-8 md:px-12">
 							<div className="max-w-7xl mx-auto text-lg">
 								<h2 className="font-display text-2xl font-medium tracking-tight mt-8 mb-2">
 									REPORTING GUIDELINES
@@ -232,7 +232,7 @@ export default function CodeOfConduct() {
 						</div>
 					</div>
 
-					<div className="p-8 md:p-12 bg-slate-700 text-white">
+					<div className="p-8 md:p-12 text-white">
 						<div className="max-w-7xl mx-auto">
 							<h2 className="font-display text-2xl font-medium tracking-tight mb-2">
 								ENDNOTES
@@ -246,7 +246,7 @@ export default function CodeOfConduct() {
 						</div>
 					</div>
 
-					<div className="p-8 md:px-12 bg-slate-800 text-white">
+					<div className="p-8 md:px-12 text-white">
 						<div className="max-w-7xl mx-auto">
 							<h2 className="font-display text-2xl font-medium tracking-tight">
 								Discord Community Guidelines

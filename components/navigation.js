@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 import { VscChromeClose, VscListSelection } from "react-icons/vsc";
-
+import { FaDiscord } from "react-icons/fa";
 export default function Navigation() {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -13,7 +13,7 @@ export default function Navigation() {
 				<nav className="flex flex-col max-w-7xl mx-auto">
 					<VscListSelection
 						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6 hover:cursor-pointer"
-						onClick={() => setIsNavOpen((prev) => !prev)}
+						onClick={() => setIsNavOpen(prev => !prev)}
 					/>
 					<Link href="/" className="lg:hidden self-begin absolute top-0 left-5">
 						<Image
@@ -73,11 +73,11 @@ export default function Navigation() {
 							</div>
 						</div>
 						<Link
-							className="inline-block text-l px-6 py-4 leading-none border text-white border-white hover:border-transparent rounded-md hover:text-black hover:bg-white"
+							className="inline-block text-l px-6 py-4 leading-none rounded-md flex items-center gap-4 bg-discord-purple text-white hover:animate-pulse"
 							href="https://discord.gg/rvxGNrFhNz"
 							onClick={() => setIsNavOpen(false)}
 						>
-							Join Us!
+							Join Us! <FaDiscord className="w-6 h-6" />
 						</Link>
 					</div>
 				</nav>
