@@ -1,11 +1,8 @@
-import Link from "next/link";
-
 import ButtonGit from "../ButtonGit";
-import ButtonPurple from "../ButtonPurple";
 
 function Contribute() {
 	return (
-		<section className="bg-white text-black py-16 lg:py-24 px-8 lg:px-12 border-b border-white text-lg">
+		<section className="bg-white text-black py-16 px-8 lg:px-12 border-b border-white text-lg">
 			<div className="max-w-2xl mx-auto md:p-y8 lg:p-0">
 				<h2 className="font-display text-4xl md:text-5xl tracking-tight lg:text-center mb-12">
 					Start Contributing!
