@@ -4,7 +4,7 @@ import { VscGithubInverted } from "react-icons/vsc";
 function ButtonGit({ text, linkTo }) {
 	return (
 		<Link
-			className="flex items-center gap-4 bg-github-black text-white justify-center py-4 px-6 min-w-[250px] rounded-md hover:animate-pulse"
+			className="flex items-center gap-4 bg-github-black text-white justify-center py-4 px-2 min-w-[250px] rounded-md hover:animate-pulse"
 			href={linkTo}
 			target="_blank"
 		>
