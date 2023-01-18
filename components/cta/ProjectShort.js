@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ButtonGit from "../ButtonGit";
 import ProjectTags from "./ProjectTags";
+import ButtonPurple from "../ButtonPurple";
 
 function ProjectShort() {
 	return (
@@ -34,12 +35,7 @@ function ProjectShort() {
 									linkTo={`https://github.com/Evil-Bees/${project.name}/issues`}
 									text="Check out issues on"
 								/>
-								<Link
-									href={project.url}
-									className="flex items-center gap-4 bg-discord-purple text-white justify-center py py-4 px-6 min-w-[250px] rounded-md hover:animate-pulse"
-								>
-									Read more!
-								</Link>
+								<ButtonPurple linkTo={project.url} text="Read More!" />
 							</div>
 						</div>
 					</section>
