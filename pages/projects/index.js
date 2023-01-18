@@ -27,7 +27,7 @@ export default function Projects() {
 						return (
 							<main key={key}>
 								<div
-									className={`relative mx-auto bg-white text-black flex lg:max-h-[450px] ${
+									className={`relative mx-auto bg-gray-900 text-white flex lg:max-h-[450px] rounded-lg ${
 										key % 2
 											? "flex-col lg:flex-row"
 											: "flex-col lg:flex-row-reverse"
@@ -50,7 +50,7 @@ export default function Projects() {
 											<p className="text-base">{project.about}</p>
 										</div>
 									</Link>
-									<div className="w-full bg-gray-300 py-8 lg:py-0 flex items-center justify-center gap-5 lg:gap-8 transition-opacity lg:opacity-0 lg:hover:opacity-[85%] lg:w-1/2 lg:absolute lg:h-full lg:top-0 lg:translate-x-0">
+									<div className="w-full bg-gray-800 py-8 lg:py-0 flex items-center justify-center gap-5 lg:gap-8 transition-opacity lg:opacity-0 lg:hover:opacity-[85%] lg:w-1/2 lg:absolute lg:h-full lg:top-0 lg:translate-x-0">
 										<Link href={project.url}>
 											<VscBook className="h-10 w-10 lg:w-12 lg:h-12 lg:hover:fill-white" />
 										</Link>
