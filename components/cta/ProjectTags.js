@@ -36,7 +36,7 @@ const displayTagColor = tag => {
 function ProjectTags({ tags }) {
 	return (
 		tags.length > 0 && (
-			<div className="flex justify-center flex-wrap w-full gap-2 ">
+			<div className="flex justify-start flex-wrap gap-2 ">
 				{tags.map((tag, index) => (
 					<span
 						className={`text-xs font-medium leading-4 border px-2 py-0.5 rounded-xl ${displayTagColor(
