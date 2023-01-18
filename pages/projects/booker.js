@@ -1,9 +1,11 @@
 import BookerInfo from "../../content/booker-info.json";
+import OurProjects from "../../content/projects.json";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
 import BannerImage from "../../public/projects/booker-banner.png";
+import ProjectTags from "../../components/cta/ProjectTags";
 
 export default function Booker() {
 	return (
@@ -19,7 +21,7 @@ export default function Booker() {
 								Online Appointment scheduling with calendar integration for any
 								business.
 							</h1>
-
+							<ProjectTags tags={OurProjects[1].tags} />
 							<Link
 								className="text-center lg:max-w-[300px] text-xl hover:text-white visited:text-zinc-900"
 								target="_blank"
