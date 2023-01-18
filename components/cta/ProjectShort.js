@@ -10,19 +10,24 @@ function ProjectShort() {
 			{Object.entries(OurProjects).map(([key, project]) => {
 				return (
 					<section className="mx-auto xl:max-w-7xl" key={key}>
-						<div className="flex flex-col md:flex-row md:items-center gap-4 lg:gap-10 my-8 xl:my-16">
+						<div className="flex flex-col lg:flex-row md:items-center gap-4 lg:gap-10 my-8 xl:my-16">
+							<h3 className="text-3xl mt-4 md:my-0 lg:hidden">
+								{project.name}
+							</h3>
 							<div className="md:w-full">
 								<Image
-									className="rounded-lg lg:w-[1000px] md:h-[220px] lg:h-auto object-cover"
+									className="rounded-lg lg:w-[1000px] lg:h-auto object-cover md:w-3/4 lg:w-full mx-auto"
 									width="470"
 									height="200"
 									src={project.photo}
 									alt={project.name}
 								/>
 							</div>
-							<div className="flex flex-col justify-around lg:justify-center lg:gap-10 pb-4 lg:py-12 gap-4 w-full md:max-w-[400px]">
-								<h3 className="text-3xl mt-4 mb-3 md:my-0">{project.name}</h3>
-								<div className="flex justify-center w-full">
+							<div className="flex flex-col justify-around lg:justify-center pb-4 lg:py-12 gap-4 w-full md:max-w-[400px]">
+								<h3 className="text-3xl mt-4 md:my-0 hidden lg:block">
+									{project.name}
+								</h3>
+								<div className="flex justify-center w-full mb-5">
 									<ProjectTags tags={project.tags} />
 								</div>
 								<ButtonGit
