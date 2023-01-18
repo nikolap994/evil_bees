@@ -1,19 +1,23 @@
 const tagsColors = [
 	{
 		name: "good first issue",
-		colors: "bg-[#382b80] text-[#b7abff] border-[#b7abff]",
+		colors:
+			"bg-good-first-issue text-good-first-issue-tag-light border-good-first-issue-tag-light",
 	},
 	{
 		name: "help wanted",
-		colors: "bg-[#004339] text-[#35d7bf] border-[#35d7bf]",
+		colors:
+			"bg-help-wanted-tag text-help-wanted-tag-light border-help-wanted-tag-light",
 	},
 	{
 		name: "beginner friendly",
-		colors: "bg-[#882707] text-[#f3a78e] border-[#f3a78e]",
+		colors:
+			"bg-beginner-friendly-tag text-beginner-friendly-tag-light border-beginner-friendly-tag-light",
 	},
 	{
 		name: "first-timers-only",
-		colors: "bg-[#09560e] text-[#5cdb31] border-[#5cdb31]",
+		colors:
+			"bg-first-timers-only-tag text-first-timers-only-tag-light border-first-timers-only-tag-light",
 	},
 ];
 
