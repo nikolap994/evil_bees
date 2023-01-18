@@ -23,12 +23,6 @@ function Contribute() {
 						<li>
 							<ButtonGit linkTo="https://github.com/Evil-Bees" text="GitHub" />
 						</li>
-						<li>
-							<ButtonPurple
-								linkTo="https://discord.gg/rvxGNrFhNz"
-								text="Discord"
-							/>
-						</li>
 					</ul>
 				</div>
 			</div>
