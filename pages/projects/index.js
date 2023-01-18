@@ -4,6 +4,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { VscGithubInverted } from "react-icons/vsc";
 import { VscBook } from "react-icons/vsc";
+import ProjectTags from "../../components/cta/ProjectTags";
 
 export default function Projects() {
 	return (
@@ -22,8 +23,7 @@ export default function Projects() {
 							project. Take a look at a few we're particularly proud of.
 						</p>
 					</div>
-					{Object.entries(OurProjects)
-					.map(([key, project]) => {
+					{Object.entries(OurProjects).map(([key, project]) => {
 						return (
 							<main key={key}>
 								<div
@@ -45,6 +45,7 @@ export default function Projects() {
 										<div className="lg:flex flex-col h-full justify-center text-xl p-12">
 											<div className="flex gap-4 items-center mb-6">
 												<h1 className="text-4xl">{project.name}</h1>
+												<ProjectTags tags={project.tags} />
 											</div>
 											<p className="text-base">{project.about}</p>
 										</div>

@@ -2,6 +2,7 @@ import OurProjects from "../../content/projects.json";
 import Image from "next/image";
 import Link from "next/link";
 import ButtonGit from "../ButtonGit";
+import ProjectTags from "./ProjectTags";
 
 function ProjectShort() {
 	return (
@@ -21,6 +22,9 @@ function ProjectShort() {
 							</div>
 							<div className="flex flex-col justify-around lg:justify-center lg:gap-10 pb-4 lg:py-12 gap-4 w-full md:max-w-[400px]">
 								<h3 className="text-3xl mt-4 mb-3 md:my-0">{project.name}</h3>
+								<div className="flex justify-center w-full">
+									<ProjectTags tags={project.tags} />
+								</div>
 								<ButtonGit
 									linkTo={`https://github.com/Evil-Bees/${project.name}/issues`}
 									text="Check out issues on"

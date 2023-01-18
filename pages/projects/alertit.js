@@ -1,9 +1,11 @@
 import AlertItInfo from "../../content/alertit-info.json";
+import OurProjects from "../../content/projects.json";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
 import BannerImage from "../../public/projects/alertit-banner.png";
+import ProjectTags from "../../components/cta/ProjectTags";
 
 export default function AlertIt() {
 	return (
@@ -17,6 +19,7 @@ export default function AlertIt() {
 						<h1 className="self-center text-white font-display text-4xl font-medium tracking-tight text-left sm:text-6xl">
 							Monitoring everything that matters to you.
 						</h1>
+						<ProjectTags tags={OurProjects[0].tags} />
 						<Link
 							className="w-full col-span-2 text-center w-full lg:max-w-[300px] text-xl text-blue-600 hover:text-white visited:text-purple-600"
 							target="_blank"
