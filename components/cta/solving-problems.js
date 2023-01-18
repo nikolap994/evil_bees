@@ -1,6 +1,8 @@
+import ButtonGit from "../ButtonGit";
+
 export default function SolvingProblems() {
 	return (
-		<section className="px-8 lg:px-12">
+		<section className="px-8 lg:px-12 mb-12">
 			<div className="mx-auto max-w-7xl p-4 md:p-8">
 				<div>
 					<h2 className="font-display mb-12 tracking-tight text-4xl">
@@ -18,6 +20,12 @@ export default function SolvingProblems() {
 						it takes a village. So, patches are always welcome!
 					</p>
 				</div>
+			</div>
+			<div className="w-[450px] mx-auto mt-7">
+				<ButtonGit
+					linkTo="https://github.com/Evil-Bees"
+					text="Check out our GitHub!"
+				/>
 			</div>
 		</section>
 	);
