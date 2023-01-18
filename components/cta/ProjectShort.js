@@ -1,6 +1,6 @@
-import OurProjects from "../../content/projects.json";
 import Image from "next/image";
-import Link from "next/link";
+
+import OurProjects from "../../content/projects.json";
 import ButtonGit from "../ButtonGit";
 import ProjectTags from "./ProjectTags";
 import ButtonPurple from "../ButtonPurple";
@@ -11,7 +11,11 @@ function ProjectShort() {
 			{Object.entries(OurProjects).map(([key, project]) => {
 				return (
 					<section className="mx-auto xl:max-w-7xl" key={key}>
-						<div className="flex flex-col lg:flex-row md:items-center gap-4 lg:gap-10 my-8 xl:my-16">
+						<div
+							className={`flex flex-col md:items-center gap-4 lg:gap-10 my-8 xl:my-16 ${
+								key % 2 == 0 ? "lg:flex-row-reverse" : "lg:flex-row"
+							}`}
+						>
 							<h3 className="text-3xl mt-4 md:my-0 lg:hidden">
 								{project.name}
 							</h3>
