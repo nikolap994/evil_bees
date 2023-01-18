@@ -2,8 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-import { VscChromeClose, VscListSelection } from "react-icons/vsc";
-import { FaDiscord } from "react-icons/fa";
+import {
+	VscGithubInverted,
+	VscListSelection,
+	VscChromeClose,
+} from "react-icons/vsc";
+
 export default function Navigation() {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -13,7 +17,7 @@ export default function Navigation() {
 				<nav className="flex flex-col max-w-7xl mx-auto">
 					<VscListSelection
 						className="lg:hidden fill-white self-end w-8 h-8 mr-6 my-6 hover:cursor-pointer"
-						onClick={() => setIsNavOpen(prev => !prev)}
+						onClick={() => setIsNavOpen((prev) => !prev)}
 					/>
 					<Link href="/" className="lg:hidden self-begin absolute top-0 left-5">
 						<Image
@@ -71,14 +75,14 @@ export default function Navigation() {
 									Code of Conduct
 								</Link>
 							</div>
+							<Link
+								className="mx-auto w-3/4 lg:w-[250px] lg:ml-4 inline-block text-lg px-6 py-4 rounded-md flex justify-center gap-4 bg-white text-black hover:bg-black hover:text-white"
+								href="https://github.com/Evil-Bees"
+								onClick={() => setIsNavOpen(false)}
+							>
+								Join us on GitHub <VscGithubInverted className="w-6 h-6" />
+							</Link>
 						</div>
-						<Link
-							className="inline-block text-l px-6 py-4 leading-none rounded-md flex items-center gap-4 bg-discord-purple text-white hover:animate-pulse"
-							href="https://discord.gg/rvxGNrFhNz"
-							onClick={() => setIsNavOpen(false)}
-						>
-							Join Us! <FaDiscord className="w-6 h-6" />
-						</Link>
 					</div>
 				</nav>
 			</header>
