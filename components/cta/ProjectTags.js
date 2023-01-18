@@ -2,7 +2,7 @@ const tagsColors = [
 	{
 		name: "good first issue",
 		colors:
-			"bg-good-first-issue text-good-first-issue-tag-light border-good-first-issue-tag-light",
+			"bg-good-first-issue-tag text-good-first-issue-tag-light border-good-first-issue-tag-light",
 	},
 	{
 		name: "help wanted",
