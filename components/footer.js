@@ -7,6 +7,7 @@ import {
 	FaDiscord,
 	FaTiktok,
 	FaFacebook,
+	FaTwitter,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -61,6 +62,11 @@ export default function Footer() {
 								target="_blank"
 							>
 								<FaFacebook className="text-white w-6 h-6 hover:animate-pulse" />
+							</Link>
+						</div>
+						<div className="flex gap-x-6">
+							<Link href="https://twitter.com/evilbeesdev/" target="_blank">
+								<FaTwitter className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 					</div>
