@@ -22,7 +22,7 @@ export default function Booker() {
 					<div className="flex flex-col lg:flex-row gap-8 justify-between">
 						<Image src={BannerImage} alt="Booker banner" className="lg:w-1/2" />
 						<h1 className="self-center text-white font-display text-4xl font-medium tracking-tight text-left sm:text-6xl">
-							Booker — Appointment scheduler
+							Online Appointment scheduling
 						</h1>
 					</div>
 					<Link href="https://github.com/Evil-Bees/Booker/issues">

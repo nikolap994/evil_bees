@@ -26,7 +26,7 @@ export default function AlertIt() {
 							className="lg:w-1/2"
 						/>
 						<h1 className="self-center text-white font-display text-4xl font-medium tracking-tight text-left sm:text-6xl">
-							AlertIt — Monitoring everything that matters to you.
+							Monitoring everything that matters to you.
 						</h1>
 					</div>
 					<Link href="https://github.com/Evil-Bees/Alertit/issues">
