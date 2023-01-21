@@ -9,7 +9,7 @@ function ProjectShort() {
 		<>
 			{Object.entries(OurProjects).map(([key, project]) => {
 				return (
-					<section className="mx-auto xl:max-w-7xl mb-16" key={key}>
+					<section className="mx-auto xl:max-w-7xl mb-12" key={key}>
 						<div
 							className={`mx-auto flex flex-col md:items-center lg:justify-around gap-4 lg:gap-10 my-8 xl:my-16 ${
 								key % 2 == 0 ? "lg:flex-row-reverse" : "lg:flex-row"
