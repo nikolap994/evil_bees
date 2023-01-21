@@ -19,7 +19,7 @@ export default function Footer() {
 						A constructive and inclusive community for software developers. With
 						you every step of your journey.
 					</p>
-					<div className="mt-3 flex justify-center md:justify-between gap-y-4 gap-x-8 items-center">
+					<div className="mt-3 flex justify-center md:justify-between gap-y-4 gap-x-4 lg:gap-x-8 items-center">
 						<div className="flex gap-x-6">
 							<Link href="https://github.com/Evil-Bees" target="_blank">
 								<FaGithub className="text-white w-6 h-6 hover:animate-pulse" />
