@@ -53,15 +53,27 @@ export default function AlertIt() {
 					</div>
 					<div className="mt-7">
 						<h3 className="text-2xl font-bold">Powered By</h3>
-						<ul className="bg-white py-6 mt-4 flex flex-col md:flex-row md:items-center justify-center lg:justify-around gap-6">
+						<ul className="bg-white py-6 px-6 md:pr-0 mt-4 flex flex-col md:flex-row md:items-center justify-center lg:justify-around gap-6">
 							<li>
-								<Image className="w-[200px]" src={NextJSLogo} alt="" />
+								<Image
+									className="w-[200px]"
+									src={NextJSLogo}
+									alt="Nextjs logo"
+								/>
 							</li>
 							<li>
-								<Image className="w-[200px]" src={MongoDBLogo} alt="" />
+								<Image
+									className="w-[200px]"
+									src={MongoDBLogo}
+									alt="MongoDB logo"
+								/>
 							</li>
 							<li className="w-[200px]">
-								<Image className="w-full" src={TailwindLogo} alt="" />
+								<Image
+									className="w-full"
+									src={TailwindLogo}
+									alt="Tailwindcss logo"
+								/>
 							</li>
 						</ul>
 					</div>
