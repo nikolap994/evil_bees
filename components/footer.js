@@ -6,7 +6,7 @@ import {
 	FaYoutube,
 	FaDiscord,
 	FaTiktok,
-	FaFacebook
+	FaFacebook,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
 		<footer className="bottom-0 z-50 bg-slate-900 border-t border-white mt-auto">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				<div className="md:flex md:flex-row items-center pt-10 pb-5 md:pt-5 sm:flex-row sm:justify-between">
-					<p className="text-center lg:text-left md:max-w-[400px] flex text-base leading-6 text-white">
+					<p className="text-center lg:text-left md:max-w-[400px] xl:max-w-[100%] flex text-base leading-6 text-white pb-4 md:pb-0 md:text-left">
 						A constructive and inclusive community for software developers. With
 						you every step of your journey.
 					</p>
@@ -30,12 +30,18 @@ export default function Footer() {
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://www.linkedin.com/company/evil-bees/" target="_blank">
+							<Link
+								href="https://www.linkedin.com/company/evil-bees/"
+								target="_blank"
+							>
 								<FaLinkedinIn className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://www.instagram.com/evilbeesdev/" target="_blank">
+							<Link
+								href="https://www.instagram.com/evilbeesdev/"
+								target="_blank"
+							>
 								<FaInstagram className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
@@ -50,7 +56,10 @@ export default function Footer() {
 							</Link>
 						</div>
 						<div className="flex gap-x-6">
-							<Link href="https://www.facebook.com/people/Evil-Bees/100088394168553/" target="_blank">
+							<Link
+								href="https://www.facebook.com/people/Evil-Bees/100088394168553/"
+								target="_blank"
+							>
 								<FaFacebook className="text-white w-6 h-6 hover:animate-pulse" />
 							</Link>
 						</div>
