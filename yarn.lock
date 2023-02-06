@@ -3016,7 +3016,7 @@
     "workbox-webpack-plugin" "^6.5.4"
     "workbox-window" "^6.5.4"
 
-"next@^13.0.0", "next@>=11.0.0", "next@>=9.0.0":
+"next@^13.0.0", "next@>=9.0.0":
   "integrity" "sha512-puH1WGM6rGeFOoFdXXYfUxN9Sgi4LMytCV5HkQJvVUOhHfC1DoVqOfvzaEteyp6P04IW+gbtK2Q9pInVSrltPA=="
   "resolved" "https://registry.npmjs.org/next/-/next-13.0.0.tgz"
   "version" "13.0.0"
@@ -3041,13 +3041,6 @@
     "@next/swc-win32-arm64-msvc" "13.0.0"
     "@next/swc-win32-ia32-msvc" "13.0.0"
     "@next/swc-win32-x64-msvc" "13.0.0"
-
-"nextjs-google-analytics@^2.2.2":
-  "integrity" "sha512-PfA5QZCV+tsCEHG6AE3UXHY8fpHguN+l8t81GztdVW1EtX6UCfu8/rb/X/E+D3oFMY0P3YFQzouSgdm1OhWFiA=="
-  "resolved" "https://registry.npmjs.org/nextjs-google-analytics/-/nextjs-google-analytics-2.2.2.tgz"
-  "version" "2.2.2"
-  optionalDependencies:
-    "fsevents" "^2.3.2"
 
 "node-releases@^2.0.6":
   "integrity" "sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg=="
@@ -3400,7 +3393,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.x || ^18.x", "react@^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=17.0.0":
+"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.x || ^18.x", "react@^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
