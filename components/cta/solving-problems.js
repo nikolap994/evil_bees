@@ -21,7 +21,7 @@ export default function SolvingProblems() {
 					</p>
 				</div>
 			</div>
-			<div className="w-[450px] mx-auto mt-7">
+			<div className="md:w-[450px] mx-auto mt-7">
 				<ButtonGit
 					linkTo="https://github.com/Evil-Bees"
 					text="Check out our GitHub!"
